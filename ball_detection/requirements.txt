@@ -1,0 +1,4 @@
+jupyter==1.0.0
+numpy==1.18.0
+openvc==4.6.0
+imutils==0.5.4
