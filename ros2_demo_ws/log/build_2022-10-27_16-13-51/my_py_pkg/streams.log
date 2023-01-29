@@ -1,0 +1,26 @@
+[1.884s] Invoking command in '/home/tom/Documents/github_projects/ros-ws/src/my_py_pkg': PYTHONPATH=/home/tom/Documents/github_projects/ros-ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tom/Documents/github_projects/ros-ws/build/my_py_pkg/build install --prefix /home/tom/Documents/github_projects/ros-ws/install/my_py_pkg --record /home/tom/Documents/github_projects/ros-ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.745s] running egg_info
+[2.749s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.750s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.751s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.752s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.754s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.760s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.766s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.767s] running build
+[2.767s] running build_py
+[2.768s] copying my_py_pkg/my_first_node.py -> /home/tom/Documents/github_projects/ros-ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.769s] running install
+[2.769s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.770s]   warnings.warn(
+[2.771s] running install_lib
+[2.772s] copying /home/tom/Documents/github_projects/ros-ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/tom/Documents/github_projects/ros-ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.775s] byte-compiling /home/tom/Documents/github_projects/ros-ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[2.777s] running install_data
+[2.778s] running install_egg_info
+[2.783s] removing '/home/tom/Documents/github_projects/ros-ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.784s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/tom/Documents/github_projects/ros-ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.788s] running install_scripts
+[2.845s] Installing py_node script to /home/tom/Documents/github_projects/ros-ws/install/my_py_pkg/lib/my_py_pkg
+[2.845s] writing list of installed files to '/home/tom/Documents/github_projects/ros-ws/build/my_py_pkg/install.log'
+[2.926s] Invoked command in '/home/tom/Documents/github_projects/ros-ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/tom/Documents/github_projects/ros-ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tom/Documents/github_projects/ros-ws/build/my_py_pkg/build install --prefix /home/tom/Documents/github_projects/ros-ws/install/my_py_pkg --record /home/tom/Documents/github_projects/ros-ws/build/my_py_pkg/install.log --single-version-externally-managed

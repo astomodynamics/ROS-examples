@@ -1,0 +1,23 @@
+[1.523s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build
+[2.060s] running develop
+[2.267s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build
+[2.269s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/src/my_py_pkg': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build install --record /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed
+[3.262s] running egg_info
+[3.265s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.266s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.267s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.268s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.269s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.382s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.385s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.386s] running build
+[3.387s] running build_py
+[3.388s] running install
+[3.389s] running install_lib
+[3.394s] running install_data
+[3.394s] running install_egg_info
+[3.402s] removing '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.420s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[3.424s] running install_scripts
+[3.460s] writing list of installed files to '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/install.log'
+[3.506s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build install --record /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed

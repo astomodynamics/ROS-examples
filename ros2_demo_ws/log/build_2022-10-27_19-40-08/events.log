@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000600] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000697] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001439] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.018560] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.018679] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.018759] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg', '--', '-j6', '-l6'], 'cwd': '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tom'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom'), ('OLDPWD', '/home/tom/Documents/github_projects/ros-ws/src/my_cpp_pkg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom-VirtualBox:@/tmp/.ICE-unix/1855,unix/tom-VirtualBox:/tmp/.ICE-unix/1855'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d39f63cf_636d_4cd1_ac8a_2f6b8c34b411'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2MDU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100056] (-) TimerEvent: {}
+[0.113150] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.163847] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.204631] (-) TimerEvent: {}
+[0.308146] (-) TimerEvent: {}
+[0.411411] (-) TimerEvent: {}
+[0.512960] (-) TimerEvent: {}
+[0.614729] (-) TimerEvent: {}
+[0.718122] (-) TimerEvent: {}
+[0.819907] (-) TimerEvent: {}
+[0.921968] (-) TimerEvent: {}
+[1.023554] (-) TimerEvent: {}
+[1.124230] (-) TimerEvent: {}
+[1.224828] (-) TimerEvent: {}
+[1.329104] (-) TimerEvent: {}
+[1.430549] (-) TimerEvent: {}
+[1.533076] (-) TimerEvent: {}
+[1.637026] (-) TimerEvent: {}
+[1.740803] (-) TimerEvent: {}
+[1.841967] (-) TimerEvent: {}
+[1.946253] (-) TimerEvent: {}
+[2.047029] (-) TimerEvent: {}
+[2.148571] (-) TimerEvent: {}
+[2.249250] (-) TimerEvent: {}
+[2.350918] (-) TimerEvent: {}
+[2.451636] (-) TimerEvent: {}
+[2.553267] (-) TimerEvent: {}
+[2.653802] (-) TimerEvent: {}
+[2.756093] (-) TimerEvent: {}
+[2.856796] (-) TimerEvent: {}
+[2.961262] (-) TimerEvent: {}
+[3.062376] (-) TimerEvent: {}
+[3.163985] (-) TimerEvent: {}
+[3.265054] (-) TimerEvent: {}
+[3.365787] (-) TimerEvent: {}
+[3.467778] (-) TimerEvent: {}
+[3.569102] (-) TimerEvent: {}
+[3.669694] (-) TimerEvent: {}
+[3.772941] (-) TimerEvent: {}
+[3.873823] (-) TimerEvent: {}
+[3.976335] (-) TimerEvent: {}
+[4.077212] (-) TimerEvent: {}
+[4.177892] (-) TimerEvent: {}
+[4.279279] (-) TimerEvent: {}
+[4.382223] (-) TimerEvent: {}
+[4.489614] (-) TimerEvent: {}
+[4.594768] (-) TimerEvent: {}
+[4.698141] (-) TimerEvent: {}
+[4.798777] (-) TimerEvent: {}
+[4.881162] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[4.899159] (-) TimerEvent: {}
+[4.999788] (-) TimerEvent: {}
+[5.107465] (-) TimerEvent: {}
+[5.137513] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target cpp_node\n'}
+[5.155621] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.207953] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[5.208084] (-) TimerEvent: {}
+[5.218901] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg'], 'cwd': '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tom'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom'), ('OLDPWD', '/home/tom/Documents/github_projects/ros-ws/src/my_cpp_pkg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom-VirtualBox:@/tmp/.ICE-unix/1855,unix/tom-VirtualBox:/tmp/.ICE-unix/1855'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d39f63cf_636d_4cd1_ac8a_2f6b8c34b411'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2MDU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.236262] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.237160] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[5.240261] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""\n'}
+[5.244342] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[5.245538] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[5.245967] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[5.246630] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[5.247378] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[5.248605] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[5.249570] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[5.251079] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[5.253131] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[5.253701] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[5.254765] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[5.261469] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[5.265850] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[5.266524] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[5.268371] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[5.271366] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.308440] (-) TimerEvent: {}
+[5.373084] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[5.375270] (-) EventReactorShutdown: {}

@@ -1,0 +1,52 @@
+[1.017s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build
+[1.320s] running develop
+[1.612s] Removing /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[1.669s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build
+[1.675s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/src/my_py_pkg': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build install --record /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed
+[2.421s] running egg_info
+[2.424s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.426s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.428s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.431s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.431s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.537s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.539s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.540s] running build
+[2.540s] running build_py
+[2.541s] copying my_py_pkg/robot_news_station.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.541s] copying my_py_pkg/number_publisher.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.542s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.543s] copying my_py_pkg/add_two_ints_client.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.546s] copying my_py_pkg/template_python_node.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.546s] copying my_py_pkg/add_two_ints_server.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.546s] copying my_py_pkg/number_counter.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.546s] copying my_py_pkg/smartphone.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.546s] running install
+[2.546s] running install_lib
+[2.547s] creating /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.548s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.550s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.553s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.554s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.554s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.556s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.557s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.557s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.559s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.559s] copying /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.561s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-38.pyc
+[2.563s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-38.pyc
+[2.564s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-38.pyc
+[2.566s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+[2.567s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-38.pyc
+[2.569s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-38.pyc
+[2.570s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-38.pyc
+[2.571s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-38.pyc
+[2.571s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-38.pyc
+[2.571s] byte-compiling /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-38.pyc
+[2.572s] running install_data
+[2.572s] running install_egg_info
+[2.578s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[2.583s] running install_scripts
+[2.620s] writing list of installed files to '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/install.log'
+[2.663s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build install --record /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed

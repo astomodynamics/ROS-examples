@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg -- -j6 -l6
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.163s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[4.880s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[5.137s] [100%] Built target cpp_node
+[5.157s] Invoked command in '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg -- -j6 -l6
+[5.218s] Invoking command in '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg
+[5.235s] -- Install configuration: ""
+[5.236s] -- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[5.243s] -- Set runtime path of "/home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[5.243s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.244s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.245s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.245s] -- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.246s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.248s] -- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.249s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.251s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.252s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.253s] -- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.259s] -- Installing: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.264s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.265s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.266s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.269s] -- Up-to-date: /home/tom/Documents/github_projects/ros-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.270s] Invoked command in '/home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg

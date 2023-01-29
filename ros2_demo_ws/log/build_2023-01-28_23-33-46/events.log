@@ -1,0 +1,278 @@
+[0.000000] (-) TimerEvent: {}
+[0.001977] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.002145] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.002247] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.031113] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.033215] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.035339] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg', '--', '-j6', '-l6'], 'cwd': '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tomo'), ('SSH_AGENT_PID', '1353'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tomo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tomo/Documents/ae7785-intro-to-robo'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/117/usr/share/code/code'), ('MANAGERPID', '1089'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2727'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tomo/Documents/turtlebot3_ws/install:/home/tomo/colcon_ws/install:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tomo'), ('JOURNAL_STREAM', '8:33888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tomo-VirtualBox:@/tmp/.ICE-unix/1418,unix/tomo-VirtualBox:/tmp/.ICE-unix/1418'), ('INVOCATION_ID', '0ff4770bfd1b4be3afc5ce2bf454c9da'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-46e921d590.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/117/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[0.096665] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.100427] (-) TimerEvent: {}
+[0.159463] (my_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.201219] (-) TimerEvent: {}
+[0.302559] (-) TimerEvent: {}
+[0.403141] (-) TimerEvent: {}
+[0.504302] (-) TimerEvent: {}
+[0.537939] (my_cpp_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.552387] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.603932] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.604588] (-) TimerEvent: {}
+[0.611501] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.714438] (-) TimerEvent: {}
+[0.808871] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.814674] (-) TimerEvent: {}
+[0.915746] (-) TimerEvent: {}
+[0.966409] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.969904] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.017115] (-) TimerEvent: {}
+[1.118045] (-) TimerEvent: {}
+[1.219450] (-) TimerEvent: {}
+[1.320269] (-) TimerEvent: {}
+[1.389570] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[1.421261] (-) TimerEvent: {}
+[1.521844] (-) TimerEvent: {}
+[1.622891] (-) TimerEvent: {}
+[1.724258] (-) TimerEvent: {}
+[1.781866] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.825926] (-) TimerEvent: {}
+[1.831508] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.837527] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg\n'}
+[1.880176] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target add_two_ints_server\x1b[0m\n'}
+[1.880659] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target smartphone\x1b[0m\n'}
+[1.880862] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robot_news_station\x1b[0m\n'}
+[1.881222] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target number_publisher\x1b[0m\n'}
+[1.881375] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target number_counter\x1b[0m\n'}
+[1.907044] (my_cpp_pkg) StdoutLine: {'line': b'[ 12%] Built target cpp_node\n'}
+[1.921258] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target add_two_ints_client\x1b[0m\n'}
+[1.926212] (-) TimerEvent: {}
+[1.940289] (my_cpp_pkg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[1.972488] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[2.014356] (my_cpp_pkg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[2.026653] (-) TimerEvent: {}
+[2.028472] (my_cpp_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o\x1b[0m\n'}
+[2.033563] (my_cpp_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[2.044561] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[2.127382] (-) TimerEvent: {}
+[2.228201] (-) TimerEvent: {}
+[2.330054] (-) TimerEvent: {}
+[2.431345] (-) TimerEvent: {}
+[2.533445] (-) TimerEvent: {}
+[2.634550] (-) TimerEvent: {}
+[2.735697] (-) TimerEvent: {}
+[2.849941] (-) TimerEvent: {}
+[2.956371] (-) TimerEvent: {}
+[3.065327] (-) TimerEvent: {}
+[3.175219] (-) TimerEvent: {}
+[3.296283] (-) TimerEvent: {}
+[3.405096] (-) TimerEvent: {}
+[3.516391] (-) TimerEvent: {}
+[3.625761] (-) TimerEvent: {}
+[3.735949] (-) TimerEvent: {}
+[3.836454] (-) TimerEvent: {}
+[3.959629] (-) TimerEvent: {}
+[4.066069] (-) TimerEvent: {}
+[4.173138] (-) TimerEvent: {}
+[4.291862] (-) TimerEvent: {}
+[4.393960] (-) TimerEvent: {}
+[4.495933] (-) TimerEvent: {}
+[4.608500] (-) TimerEvent: {}
+[4.710377] (-) TimerEvent: {}
+[4.826713] (-) TimerEvent: {}
+[4.932599] (-) TimerEvent: {}
+[5.041980] (-) TimerEvent: {}
+[5.146537] (-) TimerEvent: {}
+[5.248282] (-) TimerEvent: {}
+[5.349610] (-) TimerEvent: {}
+[5.453012] (-) TimerEvent: {}
+[5.560020] (-) TimerEvent: {}
+[5.675230] (-) TimerEvent: {}
+[5.786751] (-) TimerEvent: {}
+[5.894256] (-) TimerEvent: {}
+[5.997908] (-) TimerEvent: {}
+[6.108616] (-) TimerEvent: {}
+[6.214064] (-) TimerEvent: {}
+[6.316347] (-) TimerEvent: {}
+[6.417578] (-) TimerEvent: {}
+[6.518848] (-) TimerEvent: {}
+[6.620807] (-) TimerEvent: {}
+[6.731004] (-) TimerEvent: {}
+[6.840697] (-) TimerEvent: {}
+[6.943535] (-) TimerEvent: {}
+[7.048517] (-) TimerEvent: {}
+[7.171629] (-) TimerEvent: {}
+[7.302277] (-) TimerEvent: {}
+[7.419556] (-) TimerEvent: {}
+[7.530991] (-) TimerEvent: {}
+[7.637487] (-) TimerEvent: {}
+[7.739860] (-) TimerEvent: {}
+[7.863920] (-) TimerEvent: {}
+[7.970522] (-) TimerEvent: {}
+[8.072957] (-) TimerEvent: {}
+[8.179117] (-) TimerEvent: {}
+[8.291151] (-) TimerEvent: {}
+[8.395057] (-) TimerEvent: {}
+[8.500666] (-) TimerEvent: {}
+[8.601747] (-) TimerEvent: {}
+[8.709088] (-) TimerEvent: {}
+[8.809882] (-) TimerEvent: {}
+[8.912280] (-) TimerEvent: {}
+[9.017228] (-) TimerEvent: {}
+[9.119544] (-) TimerEvent: {}
+[9.230260] (-) TimerEvent: {}
+[9.343181] (-) TimerEvent: {}
+[9.454860] (-) TimerEvent: {}
+[9.564164] (-) TimerEvent: {}
+[9.669415] (-) TimerEvent: {}
+[9.770686] (-) TimerEvent: {}
+[9.899400] (-) TimerEvent: {}
+[10.020568] (-) TimerEvent: {}
+[10.139313] (-) TimerEvent: {}
+[10.251391] (-) TimerEvent: {}
+[10.369048] (-) TimerEvent: {}
+[10.474237] (-) TimerEvent: {}
+[10.598098] (-) TimerEvent: {}
+[10.702038] (-) TimerEvent: {}
+[10.803950] (-) TimerEvent: {}
+[10.906161] (-) TimerEvent: {}
+[11.031870] (-) TimerEvent: {}
+[11.138908] (-) TimerEvent: {}
+[11.240276] (-) TimerEvent: {}
+[11.341533] (-) TimerEvent: {}
+[11.447820] (-) TimerEvent: {}
+[11.562167] (-) TimerEvent: {}
+[11.614244] (my_cpp_pkg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_server\x1b[0m\n'}
+[11.676558] (-) TimerEvent: {}
+[11.788662] (-) TimerEvent: {}
+[11.903965] (-) TimerEvent: {}
+[12.004679] (-) TimerEvent: {}
+[12.108899] (-) TimerEvent: {}
+[12.211180] (-) TimerEvent: {}
+[12.316371] (-) TimerEvent: {}
+[12.417555] (-) TimerEvent: {}
+[12.522228] (-) TimerEvent: {}
+[12.647379] (-) TimerEvent: {}
+[12.737223] (my_cpp_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client\x1b[0m\n'}
+[12.751962] (-) TimerEvent: {}
+[12.860001] (-) TimerEvent: {}
+[12.971858] (-) TimerEvent: {}
+[13.082599] (-) TimerEvent: {}
+[13.198279] (-) TimerEvent: {}
+[13.300835] (-) TimerEvent: {}
+[13.403044] (-) TimerEvent: {}
+[13.509903] (-) TimerEvent: {}
+[13.612028] (-) TimerEvent: {}
+[13.713345] (-) TimerEvent: {}
+[13.780234] (my_cpp_pkg) StdoutLine: {'line': b'[ 62%] Built target add_two_ints_client\n'}
+[13.804401] (my_cpp_pkg) StdoutLine: {'line': b'[ 62%] Built target add_two_ints_server\n'}
+[13.818070] (-) TimerEvent: {}
+[13.820857] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[13.918303] (-) TimerEvent: {}
+[14.019420] (-) TimerEvent: {}
+[14.121097] (-) TimerEvent: {}
+[14.238983] (-) TimerEvent: {}
+[14.350115] (-) TimerEvent: {}
+[14.400595] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[14.453901] (-) TimerEvent: {}
+[14.556417] (-) TimerEvent: {}
+[14.559877] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable number_publisher\x1b[0m\n'}
+[14.665165] (-) TimerEvent: {}
+[14.766611] (-) TimerEvent: {}
+[14.869648] (-) TimerEvent: {}
+[14.976131] (-) TimerEvent: {}
+[15.084486] (-) TimerEvent: {}
+[15.187864] (-) TimerEvent: {}
+[15.274619] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target robot_news_station\n'}
+[15.290711] (-) TimerEvent: {}
+[15.392111] (-) TimerEvent: {}
+[15.424112] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target number_publisher\n'}
+[15.492730] (-) TimerEvent: {}
+[15.594249] (-) TimerEvent: {}
+[15.695845] (-) TimerEvent: {}
+[15.798062] (-) TimerEvent: {}
+[15.900264] (-) TimerEvent: {}
+[16.002744] (-) TimerEvent: {}
+[16.104030] (-) TimerEvent: {}
+[16.205954] (-) TimerEvent: {}
+[16.307001] (-) TimerEvent: {}
+[16.408097] (-) TimerEvent: {}
+[16.509520] (-) TimerEvent: {}
+[16.610917] (-) TimerEvent: {}
+[16.712115] (-) TimerEvent: {}
+[16.724014] (my_cpp_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o\x1b[0m\n'}
+[16.815267] (-) TimerEvent: {}
+[16.916984] (-) TimerEvent: {}
+[17.018535] (-) TimerEvent: {}
+[17.119676] (-) TimerEvent: {}
+[17.220484] (-) TimerEvent: {}
+[17.322126] (-) TimerEvent: {}
+[17.422721] (-) TimerEvent: {}
+[17.524054] (-) TimerEvent: {}
+[17.625711] (-) TimerEvent: {}
+[17.727107] (-) TimerEvent: {}
+[17.827863] (-) TimerEvent: {}
+[17.928582] (-) TimerEvent: {}
+[18.029351] (-) TimerEvent: {}
+[18.136328] (-) TimerEvent: {}
+[18.237422] (-) TimerEvent: {}
+[18.364176] (-) TimerEvent: {}
+[18.520266] (-) TimerEvent: {}
+[18.617738] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[18.627165] (-) TimerEvent: {}
+[18.754087] (-) TimerEvent: {}
+[18.854760] (-) TimerEvent: {}
+[18.956267] (-) TimerEvent: {}
+[19.030444] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target smartphone\n'}
+[19.069327] (-) TimerEvent: {}
+[19.176998] (-) TimerEvent: {}
+[19.292457] (-) TimerEvent: {}
+[19.357370] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[19.393726] (-) TimerEvent: {}
+[19.504255] (-) TimerEvent: {}
+[19.604870] (-) TimerEvent: {}
+[19.716509] (-) TimerEvent: {}
+[19.819392] (-) TimerEvent: {}
+[19.834463] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] Built target number_counter\n'}
+[19.929571] (-) TimerEvent: {}
+[20.036351] (-) TimerEvent: {}
+[20.139178] (-) TimerEvent: {}
+[20.320113] (-) TimerEvent: {}
+[20.420686] (-) TimerEvent: {}
+[20.540499] (-) TimerEvent: {}
+[20.672585] (-) TimerEvent: {}
+[20.780393] (-) TimerEvent: {}
+[20.888371] (-) TimerEvent: {}
+[21.002713] (-) TimerEvent: {}
+[21.104686] (-) TimerEvent: {}
+[21.206550] (-) TimerEvent: {}
+[21.230236] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client_no_oop\x1b[0m\n'}
+[21.308684] (-) TimerEvent: {}
+[21.410118] (-) TimerEvent: {}
+[21.449514] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target add_two_ints_client_no_oop\n'}
+[21.472476] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[21.511059] (-) TimerEvent: {}
+[21.597594] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[21.612714] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg'], 'cwd': '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tomo'), ('SSH_AGENT_PID', '1353'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tomo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tomo/Documents/ae7785-intro-to-robo'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/117/usr/share/code/code'), ('MANAGERPID', '1089'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2727'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tomo/Documents/turtlebot3_ws/install:/home/tomo/colcon_ws/install:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tomo'), ('JOURNAL_STREAM', '8:33888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tomo-VirtualBox:@/tmp/.ICE-unix/1418,unix/tomo-VirtualBox:/tmp/.ICE-unix/1418'), ('INVOCATION_ID', '0ff4770bfd1b4be3afc5ce2bf454c9da'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-46e921d590.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/117/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[21.614434] (-) TimerEvent: {}
+[21.627019] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.654654] (my_cpp_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.655765] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[21.656432] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[21.656967] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[21.657603] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[21.658447] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[21.658914] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[21.661437] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[21.662249] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[21.663349] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[21.664166] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[21.664865] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[21.665328] (my_cpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[21.680748] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[21.681608] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[21.682019] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[21.682649] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[21.685785] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[21.715418] (-) TimerEvent: {}
+[21.818464] (-) TimerEvent: {}
+[21.919009] (-) TimerEvent: {}
+[21.930157] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[21.932724] (-) EventReactorShutdown: {}

@@ -1,0 +1,64 @@
+[0.040s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg -- -j6 -l6
+[0.094s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.157s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.535s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.550s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.601s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.609s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.964s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.967s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.387s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.779s] -- Configuring done
+[1.829s] -- Generating done
+[1.835s] -- Build files have been written to: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg
+[1.878s] [35m[1mScanning dependencies of target add_two_ints_server[0m
+[1.878s] [35m[1mScanning dependencies of target smartphone[0m
+[1.878s] [35m[1mScanning dependencies of target robot_news_station[0m
+[1.878s] [35m[1mScanning dependencies of target number_publisher[0m
+[1.879s] [35m[1mScanning dependencies of target number_counter[0m
+[1.904s] [ 12%] Built target cpp_node
+[1.919s] [35m[1mScanning dependencies of target add_two_ints_client[0m
+[1.938s] [ 18%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.970s] [ 25%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[2.012s] [ 31%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[2.026s] [ 37%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[2.031s] [ 43%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[2.042s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[11.641s] [ 56%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[12.735s] [ 62%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[13.778s] [ 62%] Built target add_two_ints_client
+[13.802s] [ 62%] Built target add_two_ints_server
+[13.819s] [35m[1mScanning dependencies of target add_two_ints_client_no_oop[0m
+[14.398s] [ 68%] [32m[1mLinking CXX executable robot_news_station[0m
+[14.557s] [ 75%] [32m[1mLinking CXX executable number_publisher[0m
+[15.272s] [ 75%] Built target robot_news_station
+[15.422s] [ 75%] Built target number_publisher
+[16.721s] [ 81%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[18.615s] [ 87%] [32m[1mLinking CXX executable smartphone[0m
+[19.028s] [ 87%] Built target smartphone
+[19.355s] [ 93%] [32m[1mLinking CXX executable number_counter[0m
+[19.832s] [ 93%] Built target number_counter
+[21.228s] [100%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[21.447s] [100%] Built target add_two_ints_client_no_oop
+[21.483s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg -- -j6 -l6
+[21.611s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg
+[21.625s] -- Install configuration: ""
+[21.652s] -- Execute custom install script
+[21.653s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[21.654s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[21.654s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[21.655s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[21.656s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[21.656s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[21.659s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[21.660s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[21.661s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[21.662s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[21.662s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[21.663s] -- Symlinking: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[21.678s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[21.679s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[21.679s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[21.680s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[21.684s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg

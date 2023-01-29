@@ -1,0 +1,5 @@
+[0.032s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros-ws-main/build/my_cpp_pkg': /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros-ws-main/build/my_cpp_pkg -- -j6 -l6
+[0.042s] CMake Error: The current CMakeCache.txt directory /home/tomo/Documents/ae7785-intro-to-robo/ros-ws-main/build/my_cpp_pkg/CMakeCache.txt is different than the directory /home/tom/Documents/github_projects/ros-ws/build/my_cpp_pkg where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.049s] No such file or directory
+[0.049s] CMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake -j6 -l6 && 
+[0.052s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros-ws-main/build/my_cpp_pkg' returned '1': /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros-ws-main/build/my_cpp_pkg -- -j6 -l6

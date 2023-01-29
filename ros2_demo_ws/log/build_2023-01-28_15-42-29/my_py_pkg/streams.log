@@ -1,0 +1,16 @@
+[0.929s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build --no-deps install_data
+[1.220s] running develop
+[1.376s] running egg_info
+[1.376s] writing my_py_pkg.egg-info/PKG-INFO
+[1.378s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.378s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.379s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.379s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.417s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.418s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.468s] running build_ext
+[1.469s] Creating /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[1.470s] 
+[1.470s] Installed /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg
+[1.470s] running install_data
+[1.494s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build --no-deps install_data

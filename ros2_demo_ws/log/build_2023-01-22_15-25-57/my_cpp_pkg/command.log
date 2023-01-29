@@ -1,0 +1,2 @@
+Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros-ws-main/build/my_cpp_pkg': /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros-ws-main/build/my_cpp_pkg -- -j6 -l6
+Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros-ws-main/build/my_cpp_pkg' returned '1': /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros-ws-main/build/my_cpp_pkg -- -j6 -l6

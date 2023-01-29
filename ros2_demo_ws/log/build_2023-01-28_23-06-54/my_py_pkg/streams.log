@@ -1,0 +1,24 @@
+[0.935s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build --no-deps install_data
+[1.237s] running develop
+[1.400s] running egg_info
+[1.400s] writing my_py_pkg.egg-info/PKG-INFO
+[1.401s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.401s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.401s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.402s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.444s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.445s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.494s] running build_ext
+[1.494s] Creating /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[1.498s] Installing add_two_ints_client script to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/my_py_pkg
+[1.498s] Installing add_two_ints_client_no_oop script to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/my_py_pkg
+[1.498s] Installing add_two_ints_server script to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/my_py_pkg
+[1.499s] Installing number_counter script to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/my_py_pkg
+[1.499s] Installing number_publisher script to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/my_py_pkg
+[1.499s] Installing py_node script to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/my_py_pkg
+[1.499s] Installing robot_news_station script to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/my_py_pkg
+[1.500s] Installing smartphone script to /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/my_py_pkg
+[1.500s] 
+[1.500s] Installed /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg
+[1.500s] running install_data
+[1.531s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/prefix_override:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg/build --no-deps install_data

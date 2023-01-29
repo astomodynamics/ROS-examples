@@ -1,0 +1,26 @@
+[0.035s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg -- -j6 -l6
+[0.166s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.205s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[4.791s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[4.945s] [100%] Built target cpp_node
+[4.969s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg -- -j6 -l6
+[5.024s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg
+[5.045s] -- Install configuration: ""
+[5.175s] -- Execute custom install script
+[5.177s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[5.178s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.180s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.181s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.181s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.183s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.183s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.184s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.185s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.186s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.187s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.188s] -- Symlinking: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.211s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.212s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.213s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.213s] -- Up-to-date symlink: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.223s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg
