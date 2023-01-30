@@ -1,0 +1,30 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_cpp_pkg
+[35m[1mScanning dependencies of target battery[0m
+[  9%] Built target number_counter
+[ 18%] Built target cpp_node
+[ 22%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[ 31%] Built target number_publisher
+[ 40%] Built target smartphone
+[ 50%] Built target robot_news_station
+[35m[1mScanning dependencies of target hardware_status_publisher[0m
+[35m[1mScanning dependencies of target led_panel[0m
+[ 68%] Built target add_two_ints_server
+[ 68%] Built target add_two_ints_client
+[ 77%] Built target add_two_ints_client_no_oop
+[ 81%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[ 90%] Built target hardware_status_publisher

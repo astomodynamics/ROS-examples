@@ -80,6 +80,39 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -101,39 +134,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -166,6 +166,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
 
 #=============================================================================
 # Target rules for targets named number_publisher
@@ -233,17 +246,17 @@ robot_news_station/fast:
 .PHONY : robot_news_station/fast
 
 #=============================================================================
-# Target rules for targets named uninstall
+# Target rules for targets named battery
 
 # Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
+battery: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 battery
+.PHONY : battery
 
 # fast build rule for target.
-uninstall/fast:
-	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
+battery/fast:
+	$(MAKE) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/build
+.PHONY : battery/fast
 
 #=============================================================================
 # Target rules for targets named smartphone
@@ -296,6 +309,32 @@ add_two_ints_client_no_oop: cmake_check_build_system
 add_two_ints_client_no_oop/fast:
 	$(MAKE) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/build
 .PHONY : add_two_ints_client_no_oop/fast
+
+#=============================================================================
+# Target rules for targets named hardware_status_publisher
+
+# Build rule for target.
+hardware_status_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hardware_status_publisher
+.PHONY : hardware_status_publisher
+
+# fast build rule for target.
+hardware_status_publisher/fast:
+	$(MAKE) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/build
+.PHONY : hardware_status_publisher/fast
+
+#=============================================================================
+# Target rules for targets named led_panel
+
+# Build rule for target.
+led_panel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 led_panel
+.PHONY : led_panel
+
+# fast build rule for target.
+led_panel/fast:
+	$(MAKE) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/build
+.PHONY : led_panel/fast
 
 src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
 
@@ -377,6 +416,87 @@ src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
 src/add_two_ints_server.cpp.s:
 	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
 .PHONY : src/add_two_ints_server.cpp.s
+
+src/battery.o: src/battery.cpp.o
+
+.PHONY : src/battery.o
+
+# target to build an object file
+src/battery.cpp.o:
+	$(MAKE) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/src/battery.cpp.o
+.PHONY : src/battery.cpp.o
+
+src/battery.i: src/battery.cpp.i
+
+.PHONY : src/battery.i
+
+# target to preprocess a source file
+src/battery.cpp.i:
+	$(MAKE) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/src/battery.cpp.i
+.PHONY : src/battery.cpp.i
+
+src/battery.s: src/battery.cpp.s
+
+.PHONY : src/battery.s
+
+# target to generate assembly for a file
+src/battery.cpp.s:
+	$(MAKE) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/src/battery.cpp.s
+.PHONY : src/battery.cpp.s
+
+src/hw_status_publisher.o: src/hw_status_publisher.cpp.o
+
+.PHONY : src/hw_status_publisher.o
+
+# target to build an object file
+src/hw_status_publisher.cpp.o:
+	$(MAKE) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o
+.PHONY : src/hw_status_publisher.cpp.o
+
+src/hw_status_publisher.i: src/hw_status_publisher.cpp.i
+
+.PHONY : src/hw_status_publisher.i
+
+# target to preprocess a source file
+src/hw_status_publisher.cpp.i:
+	$(MAKE) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.i
+.PHONY : src/hw_status_publisher.cpp.i
+
+src/hw_status_publisher.s: src/hw_status_publisher.cpp.s
+
+.PHONY : src/hw_status_publisher.s
+
+# target to generate assembly for a file
+src/hw_status_publisher.cpp.s:
+	$(MAKE) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.s
+.PHONY : src/hw_status_publisher.cpp.s
+
+src/led_panel.o: src/led_panel.cpp.o
+
+.PHONY : src/led_panel.o
+
+# target to build an object file
+src/led_panel.cpp.o:
+	$(MAKE) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/src/led_panel.cpp.o
+.PHONY : src/led_panel.cpp.o
+
+src/led_panel.i: src/led_panel.cpp.i
+
+.PHONY : src/led_panel.i
+
+# target to preprocess a source file
+src/led_panel.cpp.i:
+	$(MAKE) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/src/led_panel.cpp.i
+.PHONY : src/led_panel.cpp.i
+
+src/led_panel.s: src/led_panel.cpp.s
+
+.PHONY : src/led_panel.s
+
+# target to generate assembly for a file
+src/led_panel.cpp.s:
+	$(MAKE) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/src/led_panel.cpp.s
+.PHONY : src/led_panel.cpp.s
 
 src/my_first_node.o: src/my_first_node.cpp.o
 
@@ -521,6 +641,10 @@ help:
 	@echo "... depend"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... uninstall"
 	@echo "... install/strip"
 	@echo "... number_publisher"
 	@echo "... list_install_components"
@@ -528,14 +652,13 @@ help:
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... cpp_node"
 	@echo "... robot_news_station"
-	@echo "... uninstall"
-	@echo "... test"
+	@echo "... battery"
 	@echo "... smartphone"
 	@echo "... add_two_ints_server"
-	@echo "... edit_cache"
-	@echo "... rebuild_cache"
 	@echo "... add_two_ints_client"
 	@echo "... add_two_ints_client_no_oop"
+	@echo "... hardware_status_publisher"
+	@echo "... led_panel"
 	@echo "... src/add_two_ints_client.o"
 	@echo "... src/add_two_ints_client.i"
 	@echo "... src/add_two_ints_client.s"
@@ -545,6 +668,15 @@ help:
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
+	@echo "... src/battery.o"
+	@echo "... src/battery.i"
+	@echo "... src/battery.s"
+	@echo "... src/hw_status_publisher.o"
+	@echo "... src/hw_status_publisher.i"
+	@echo "... src/hw_status_publisher.s"
+	@echo "... src/led_panel.o"
+	@echo "... src/led_panel.i"
+	@echo "... src/led_panel.s"
 	@echo "... src/my_first_node.o"
 	@echo "... src/my_first_node.i"
 	@echo "... src/my_first_node.s"

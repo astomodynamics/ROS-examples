@@ -1,0 +1,259 @@
+[0.043s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_robot_interfaces -- -j6 -l6
+[0.092s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.145s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.145s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.450s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.460s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.807s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.133s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.349s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.350s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.394s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.394s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.394s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.549s] -- Configuring done
+[1.644s] -- Generating done
+[1.656s] -- Build files have been written to: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_robot_interfaces
+[1.697s] [35m[1mScanning dependencies of target my_robot_interfaces__cpp[0m
+[1.701s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.718s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.259s] [  4%] Built target my_robot_interfaces__cpp
+[2.279s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.280s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.280s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.405s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_generator_c[0m
+[2.452s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__functions.c.o[0m
+[2.453s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[2.454s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o[0m
+[2.613s] [ 19%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[2.673s] [ 19%] Built target my_robot_interfaces__rosidl_generator_c
+[2.692s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.704s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.734s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_cpp[0m
+[2.761s] [ 27%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_state_array__type_support.cpp.o[0m
+[2.761s] [ 27%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[2.867s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.910s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.950s] [ 29%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[2.964s] [ 31%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[3.215s] [ 34%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp.o[0m
+[3.270s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_c[0m
+[3.337s] [ 36%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[3.391s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[3.419s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c[0m
+[3.440s] [ 40%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o[0m
+[3.441s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_state_array__type_support.cpp.o[0m
+[3.508s] [ 44%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[3.533s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[3.584s] [ 48%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_state_array__type_support.c.o[0m
+[3.693s] [ 51%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[3.753s] [ 53%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o[0m
+[3.838s] [ 53%] Built target my_robot_interfaces__rosidl_typesupport_c
+[3.884s] [ 55%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o[0m
+[3.890s] [ 57%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_state_array__type_support.cpp.o[0m
+[3.908s] [ 59%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.042s] [ 59%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[4.050s] [ 61%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[4.103s] [ 63%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.154s] [ 63%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[4.246s] [ 63%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[4.595s] [ 65%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.727s] [ 65%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.746s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.191s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[5.312s] [ 70%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[5.316s] [ 72%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o[0m
+[5.320s] [ 74%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_state_array__type_support_c.cpp.o[0m
+[5.749s] [ 76%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.868s] [ 76%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[5.906s] [ 76%] Built target my_robot_interfaces
+[5.924s] [35m[1mScanning dependencies of target my_robot_interfaces__py[0m
+[5.941s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.058s] [ 78%] Built target my_robot_interfaces__py
+[7.078s] [35m[1mScanning dependencies of target my_robot_interfaces__python[0m
+[7.225s] [ 82%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_led_state_array_s.c.o[0m
+[7.225s] [ 85%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o[0m
+[7.225s] [ 82%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.o[0m
+[7.432s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__python.so[0m
+[7.492s] [ 87%] Built target my_robot_interfaces__python
+[7.512s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.513s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext[0m
+[7.513s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[7.579s] [ 89%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.583s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.584s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.713s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.717s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.719s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.787s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.789s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[7.838s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.859s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_robot_interfaces -- -j6 -l6
+[8.046s] Invoking command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_robot_interfaces
+[8.058s] -- Install configuration: ""
+[8.059s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[8.059s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[8.060s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[8.060s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.h
+[8.060s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[8.060s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+[8.060s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[8.061s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+[8.061s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+[8.062s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[8.062s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.062s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[8.063s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[8.064s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__struct.h
+[8.065s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__functions.c
+[8.065s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[8.067s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[8.068s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[8.068s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__type_support.h
+[8.068s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__functions.h
+[8.069s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.h
+[8.069s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_state_array.h
+[8.069s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[8.070s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[8.070s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[8.070s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[8.071s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[8.071s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[8.071s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[8.071s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[8.072s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[8.072s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[8.072s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_c.h
+[8.072s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[8.072s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.073s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.073s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.078s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[8.078s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[8.079s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[8.079s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[8.079s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/dds_fastrtps
+[8.079s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[8.080s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.080s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[8.080s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[8.081s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.083s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/dds_fastrtps
+[8.084s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.086s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.087s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[8.088s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[8.088s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[8.089s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[8.089s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[8.089s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[8.090s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.090s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[8.090s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__type_support.c
+[8.091s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[8.091s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_c.h
+[8.092s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[8.092s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[8.092s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.092s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[8.093s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[8.093s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[8.094s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[8.094s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.hpp
+[8.094s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[8.095s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[8.095s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[8.095s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[8.095s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[8.096s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_state_array.hpp
+[8.096s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[8.096s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__struct.hpp
+[8.096s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[8.096s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__traits.hpp
+[8.097s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[8.097s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[8.097s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__builder.hpp
+[8.097s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.hpp
+[8.098s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[8.098s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[8.098s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[8.098s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+[8.098s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[8.099s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[8.099s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[8.099s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[8.099s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[8.100s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp
+[8.100s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_cpp.hpp
+[8.100s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.100s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.100s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[8.100s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.101s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[8.101s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[8.101s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py
+[8.142s] Compiling '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py'...
+[8.146s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg
+[8.147s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_state_array.py
+[8.147s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[8.148s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/__init__.py
+[8.148s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[8.148s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_state_array_s.c
+[8.148s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv
+[8.149s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py
+[8.149s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/__init__.py
+[8.149s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c
+[8.150s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[8.150s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.151s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[8.151s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.152s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[8.152s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.153s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so
+[8.154s] -- Set runtime path of "/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so" to ""
+[8.154s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[8.154s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.idl
+[8.155s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl
+[8.155s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[8.156s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.msg
+[8.156s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv
+[8.157s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg
+[8.157s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg
+[8.157s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[8.158s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[8.158s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[8.158s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[8.159s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[8.159s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[8.159s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[8.159s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[8.160s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[8.160s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[8.160s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[8.161s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[8.161s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport.cmake
+[8.161s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.162s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.163s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.163s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[8.163s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.163s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cppExport.cmake
+[8.164s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.164s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.164s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[8.164s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.164s] -- Installing: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.165s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.165s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.165s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.165s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.165s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.169s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.174s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[8.175s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[8.175s] -- Up-to-date: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[8.176s] Invoked command in '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_robot_interfaces

@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/src/my_cpp_pkg/src/battery.cpp', needed by 'CMakeFiles/battery.dir/src/battery.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:260: CMakeFiles/battery.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

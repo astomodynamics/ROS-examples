@@ -1,0 +1,25 @@
+[  9%] Built target number_counter
+[ 13%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[ 22%] Built target cpp_node
+[ 31%] Built target number_publisher
+[ 40%] Built target smartphone
+[ 50%] Built target robot_news_station
+[ 59%] Built target add_two_ints_server
+[ 68%] Built target add_two_ints_client
+[ 72%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[ 81%] Built target add_two_ints_client_no_oop
+[ 90%] Built target hardware_status_publisher
+[01m[K/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/src/my_cpp_pkg/src/battery.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/srv/set_led.hpp: No such file or directory
+    2 | #include [01;31m[K"my_robot_interfaces/srv/set_led.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/battery.dir/build.make:63: CMakeFiles/battery.dir/src/battery.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:260: CMakeFiles/battery.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/src/my_cpp_pkg/src/led_panel.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/led_state_array.hpp: No such file or directory
+    2 | #include [01;31m[K"my_robot_interfaces/msg/led_state_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/led_panel.dir/build.make:63: CMakeFiles/led_panel.dir/src/led_panel.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:422: CMakeFiles/led_panel.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
