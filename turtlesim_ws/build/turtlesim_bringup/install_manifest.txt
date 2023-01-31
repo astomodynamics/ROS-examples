@@ -1,0 +1,16 @@
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/launch/turtlesim_chaser.launch.py
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/ament_index/resource_index/package_run_dependencies/turtlesim_bringup
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/ament_index/resource_index/parent_prefix_path/turtlesim_bringup
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/environment/ament_prefix_path.sh
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/environment/ament_prefix_path.dsv
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/environment/path.sh
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/environment/path.dsv
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.bash
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.sh
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.zsh
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.dsv
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/package.dsv
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/ament_index/resource_index/packages/turtlesim_bringup
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/cmake/turtlesim_bringupConfig.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/cmake/turtlesim_bringupConfig-version.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/package.xml

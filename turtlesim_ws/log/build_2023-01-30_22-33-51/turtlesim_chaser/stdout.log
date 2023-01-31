@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing turtlesim_chaser.egg-info/PKG-INFO
+writing dependency_links to turtlesim_chaser.egg-info/dependency_links.txt
+writing entry points to turtlesim_chaser.egg-info/entry_points.txt
+writing requirements to turtlesim_chaser.egg-info/requires.txt
+writing top-level names to turtlesim_chaser.egg-info/top_level.txt
+reading manifest file 'turtlesim_chaser.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_chaser.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim-chaser.egg-link (link to .)
+Installing turtle_controller script to /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/turtlesim_chaser
+Installing turtle_spawner script to /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/turtlesim_chaser
+
+Installed /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser
+running install_data
+copying package.xml -> /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser

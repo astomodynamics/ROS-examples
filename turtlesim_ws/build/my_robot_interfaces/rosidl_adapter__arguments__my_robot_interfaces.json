@@ -1,0 +1,7 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/my_robot_interfaces:msg/Turtle.msg",
+    "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/my_robot_interfaces:msg/TurtleArray.msg"
+  ]
+}

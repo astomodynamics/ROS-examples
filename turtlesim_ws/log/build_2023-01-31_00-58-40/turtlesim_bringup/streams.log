@@ -1,0 +1,16 @@
+[0.036s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup -- -j6 -l6
+[0.092s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.163s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.593s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.593s]   ament_package_xml() package name 'turtlesim_bringup' in '/package.xml' does
+[0.593s]   not match current PROJECT_NAME 'my_turtlesim_bringup'.  You must call
+[0.594s]   project() with the same package name before.
+[0.594s] Call Stack (most recent call first):
+[0.594s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.594s]   CMakeLists.txt:24 (ament_package)
+[0.595s] 
+[0.595s] 
+[0.595s] -- Configuring incomplete, errors occurred!
+[0.595s] See also "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup/CMakeFiles/CMakeOutput.log".
+[0.597s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.606s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup -- -j6 -l6

@@ -1,0 +1,16 @@
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cppExport.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake

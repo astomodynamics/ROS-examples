@@ -1,0 +1,18 @@
+[1.325s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/prefix_override:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build --no-deps install_data
+[1.709s] running develop
+[1.914s] running egg_info
+[1.915s] writing turtlesim_chaser.egg-info/PKG-INFO
+[1.915s] writing dependency_links to turtlesim_chaser.egg-info/dependency_links.txt
+[1.916s] writing entry points to turtlesim_chaser.egg-info/entry_points.txt
+[1.916s] writing requirements to turtlesim_chaser.egg-info/requires.txt
+[1.917s] writing top-level names to turtlesim_chaser.egg-info/top_level.txt
+[1.970s] reading manifest file 'turtlesim_chaser.egg-info/SOURCES.txt'
+[1.974s] writing manifest file 'turtlesim_chaser.egg-info/SOURCES.txt'
+[2.032s] running build_ext
+[2.033s] Creating /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim-chaser.egg-link (link to .)
+[2.035s] Installing turtle_controller script to /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/turtlesim_chaser
+[2.035s] Installing turtle_spawner script to /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/turtlesim_chaser
+[2.036s] 
+[2.036s] Installed /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser
+[2.036s] running install_data
+[2.077s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser' returned '0': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/prefix_override:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build --no-deps install_data

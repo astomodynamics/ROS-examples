@@ -1,0 +1,181 @@
+[0.227s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'my_robot_interfaces', '--symlink-install']
+[0.227s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff1fb3c9d00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['my_robot_interfaces'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff1fb3c9d00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff1fb3522b0>)
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.263s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_chaser' with type 'ros.ament_python' and name 'turtlesim_chaser'
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.334s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim_chaser' in 'src/turtlesim_chaser'
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/tomo/Documents/turtlebot3_ws/install
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/tomo/colcon_ws/install
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install
+[0.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 339 installed packages in /opt/ros/foxy
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.466s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'my_robot_interfaces' is in: /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding my_robot_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/my_robot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.471s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.477s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.477s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/my_robot_interfaces'
+[0.489s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces
+[4.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces
+[4.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces -- -j6 -l6
+[16.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces -- -j6 -l6
+[16.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces
+[18.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[18.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces
+[18.678s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces' for CMake module files
+[18.680s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces' for CMake config files
+[18.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[18.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[18.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[18.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[18.702s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib'
+[18.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[18.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[18.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[18.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[18.709s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/bin'
+[18.709s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[18.710s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages'
+[18.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[18.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[18.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[18.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[18.722s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/bin'
+[18.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[18.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[18.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[18.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[18.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[18.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[19.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[19.057s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces' for CMake module files
+[19.058s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces' for CMake config files
+[19.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[19.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[19.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[19.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[19.065s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib'
+[19.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[19.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[19.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[19.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[19.080s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/bin'
+[19.080s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[19.082s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages'
+[19.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[19.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[19.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[19.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[19.094s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/bin'
+[19.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[19.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[19.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[19.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[19.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[19.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[19.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.118s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.119s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.120s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.144s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.205s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/local_setup.ps1'
+[19.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/_local_setup_util_ps1.py'
+[19.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/setup.ps1'
+[19.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/local_setup.sh'
+[19.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/_local_setup_util_sh.py'
+[19.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/setup.sh'
+[19.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/local_setup.bash'
+[19.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/setup.bash'
+[19.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/local_setup.zsh'
+[19.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/setup.zsh'

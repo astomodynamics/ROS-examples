@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.000531] (-) JobUnselected: {'identifier': 'turtlesim_chaser'}
+[0.001301] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.004332] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.045364] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.047894] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/my_robot_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces'], 'cwd': '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tomo'), ('SSH_AGENT_PID', '1333'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tomo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/117/usr/share/code/code'), ('MANAGERPID', '1057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4120'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tomo/Documents/turtlebot3_ws/install:/home/tomo/colcon_ws/install:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tomo'), ('JOURNAL_STREAM', '8:31260'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tomo-VirtualBox:@/tmp/.ICE-unix/1395,unix/tomo-VirtualBox:/tmp/.ICE-unix/1395'), ('INVOCATION_ID', '0e4785638865462da63372bc7b3f8665'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-89e5371be1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/117/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_bringup:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_bringup:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[0.099642] (-) TimerEvent: {}
+[0.192274] (my_robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.200426] (-) TimerEvent: {}
+[0.291176] (my_robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.299245] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.301170] (-) TimerEvent: {}
+[0.401940] (-) TimerEvent: {}
+[0.441161] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.444472] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.502313] (-) TimerEvent: {}
+[0.604040] (-) TimerEvent: {}
+[0.635152] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.673397] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.674766] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.682626] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.704304] (-) TimerEvent: {}
+[0.810397] (-) TimerEvent: {}
+[0.830709] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.832279] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.910980] (-) TimerEvent: {}
+[0.984573] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.006439] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.007943] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.012025] (-) TimerEvent: {}
+[1.014293] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.081311] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.082247] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.112708] (-) TimerEvent: {}
+[1.213429] (-) TimerEvent: {}
+[1.314368] (-) TimerEvent: {}
+[1.415738] (-) TimerEvent: {}
+[1.517302] (-) TimerEvent: {}
+[1.581542] (my_robot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.618499] (-) TimerEvent: {}
+[1.702307] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.719497] (-) TimerEvent: {}
+[1.727842] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.779703] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.819741] (-) TimerEvent: {}
+[1.932336] (-) TimerEvent: {}
+[2.082444] (-) TimerEvent: {}
+[2.186451] (-) TimerEvent: {}
+[2.287778] (-) TimerEvent: {}
+[2.391230] (-) TimerEvent: {}
+[2.498268] (-) TimerEvent: {}
+[2.562375] (my_robot_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.598521] (-) TimerEvent: {}
+[2.699326] (-) TimerEvent: {}
+[2.721463] (my_robot_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.800519] (-) TimerEvent: {}
+[2.901087] (-) TimerEvent: {}
+[3.001843] (-) TimerEvent: {}
+[3.002917] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.102153] (-) TimerEvent: {}
+[3.205934] (-) TimerEvent: {}
+[3.219212] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.307519] (-) TimerEvent: {}
+[3.408201] (-) TimerEvent: {}
+[3.508677] (-) TimerEvent: {}
+[3.579507] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.613061] (-) TimerEvent: {}
+[3.713894] (-) TimerEvent: {}
+[3.798105] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.814132] (-) TimerEvent: {}
+[3.817186] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.876758] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.883507] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.914891] (-) TimerEvent: {}
+[3.950075] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.950795] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.951078] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.951456] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.999639] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.019261] (-) TimerEvent: {}
+[4.119841] (-) TimerEvent: {}
+[4.134230] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.217790] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.220084] (-) TimerEvent: {}
+[4.227573] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces\n'}
+[4.237877] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[4.240540] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[4.247440] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tomo'), ('SSH_AGENT_PID', '1333'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tomo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/117/usr/share/code/code'), ('MANAGERPID', '1057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4120'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tomo/Documents/turtlebot3_ws/install:/home/tomo/colcon_ws/install:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tomo'), ('JOURNAL_STREAM', '8:31260'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tomo-VirtualBox:@/tmp/.ICE-unix/1395,unix/tomo-VirtualBox:/tmp/.ICE-unix/1395'), ('INVOCATION_ID', '0e4785638865462da63372bc7b3f8665'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-89e5371be1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/117/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_bringup:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_bringup:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[4.320724] (-) TimerEvent: {}
+[4.341962] (my_robot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.351662] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__cpp\x1b[0m\n'}
+[4.399538] (my_robot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.421061] (-) TimerEvent: {}
+[4.526837] (-) TimerEvent: {}
+[4.628229] (-) TimerEvent: {}
+[4.736015] (-) TimerEvent: {}
+[4.841852] (-) TimerEvent: {}
+[4.958520] (-) TimerEvent: {}
+[5.061961] (-) TimerEvent: {}
+[5.075707] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.137288] (my_robot_interfaces) StdoutLine: {'line': b'[  5%] Built target my_robot_interfaces__cpp\n'}
+[5.142740] (my_robot_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle_array__functions.c.o\x1b[0m\n'}
+[5.158060] (my_robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__functions.c.o\x1b[0m\n'}
+[5.162940] (-) TimerEvent: {}
+[5.175355] (my_robot_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.176443] (my_robot_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.178550] (my_robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.265986] (-) TimerEvent: {}
+[5.342491] (my_robot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.374092] (-) TimerEvent: {}
+[5.479569] (-) TimerEvent: {}
+[5.530339] (my_robot_interfaces) StdoutLine: {'line': b'[ 20%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[5.583272] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.583633] (-) TimerEvent: {}
+[5.604526] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.704121] (-) TimerEvent: {}
+[5.818294] (-) TimerEvent: {}
+[5.922551] (-) TimerEvent: {}
+[5.959699] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.023472] (-) TimerEvent: {}
+[6.034686] (my_robot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[6.065328] (my_robot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[6.124931] (-) TimerEvent: {}
+[6.255732] (-) TimerEvent: {}
+[6.304399] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.384900] (-) TimerEvent: {}
+[6.437304] (my_robot_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/turtle__type_support.cpp.o\x1b[0m\n'}
+[6.438945] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.494753] (-) TimerEvent: {}
+[6.578758] (my_robot_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o\x1b[0m\n'}
+[6.595984] (-) TimerEvent: {}
+[6.680222] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[6.704110] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.704724] (-) TimerEvent: {}
+[6.824565] (-) TimerEvent: {}
+[6.936778] (-) TimerEvent: {}
+[7.001614] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o\x1b[0m\n'}
+[7.050753] (-) TimerEvent: {}
+[7.172549] (-) TimerEvent: {}
+[7.282821] (-) TimerEvent: {}
+[7.304605] (my_robot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[7.392995] (-) TimerEvent: {}
+[7.506629] (-) TimerEvent: {}
+[7.616834] (-) TimerEvent: {}
+[7.740034] (-) TimerEvent: {}
+[7.768308] (my_robot_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[7.852149] (-) TimerEvent: {}
+[7.860455] (my_robot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o\x1b[0m\n'}
+[7.962845] (-) TimerEvent: {}
+[8.081964] (-) TimerEvent: {}
+[8.204545] (-) TimerEvent: {}
+[8.276296] (my_robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.314858] (-) TimerEvent: {}
+[8.368385] (my_robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[8.424475] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.424980] (-) TimerEvent: {}
+[8.560801] (-) TimerEvent: {}
+[8.628659] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[8.669348] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.670005] (-) TimerEvent: {}
+[8.681149] (my_robot_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.706403] (my_robot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[8.785446] (-) TimerEvent: {}
+[8.909949] (-) TimerEvent: {}
+[8.970829] (my_robot_interfaces) StdoutLine: {'line': b'[ 58%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[9.014786] (-) TimerEvent: {}
+[9.120492] (-) TimerEvent: {}
+[9.234240] (-) TimerEvent: {}
+[9.349849] (-) TimerEvent: {}
+[9.452290] (-) TimerEvent: {}
+[9.564158] (-) TimerEvent: {}
+[9.689135] (-) TimerEvent: {}
+[9.815002] (-) TimerEvent: {}
+[9.918103] (-) TimerEvent: {}
+[9.971136] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.020322] (-) TimerEvent: {}
+[10.122360] (-) TimerEvent: {}
+[10.206070] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.228838] (-) TimerEvent: {}
+[10.335367] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.335823] (-) TimerEvent: {}
+[10.436622] (-) TimerEvent: {}
+[10.558266] (-) TimerEvent: {}
+[10.643653] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.659397] (-) TimerEvent: {}
+[10.688933] (my_robot_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.777072] (-) TimerEvent: {}
+[10.878220] (-) TimerEvent: {}
+[10.980080] (-) TimerEvent: {}
+[11.082465] (-) TimerEvent: {}
+[11.183329] (-) TimerEvent: {}
+[11.284513] (-) TimerEvent: {}
+[11.385071] (-) TimerEvent: {}
+[11.490812] (-) TimerEvent: {}
+[11.520694] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.578658] (my_robot_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/turtle_array__type_support_c.cpp.o\x1b[0m\n'}
+[11.579419] (my_robot_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/turtle__type_support_c.cpp.o\x1b[0m\n'}
+[11.595181] (-) TimerEvent: {}
+[11.696411] (-) TimerEvent: {}
+[11.808351] (-) TimerEvent: {}
+[11.910280] (-) TimerEvent: {}
+[12.014231] (-) TimerEvent: {}
+[12.115689] (-) TimerEvent: {}
+[12.216383] (-) TimerEvent: {}
+[12.317843] (-) TimerEvent: {}
+[12.343014] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.419976] (-) TimerEvent: {}
+[12.520552] (-) TimerEvent: {}
+[12.524091] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[12.550245] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces\x1b[0m\n'}
+[12.574171] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces\n'}
+[12.597451] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__py\x1b[0m\n'}
+[12.621071] (-) TimerEvent: {}
+[12.624294] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.733829] (-) TimerEvent: {}
+[12.844776] (-) TimerEvent: {}
+[12.959457] (-) TimerEvent: {}
+[13.074295] (-) TimerEvent: {}
+[13.183631] (-) TimerEvent: {}
+[13.290496] (-) TimerEvent: {}
+[13.394627] (-) TimerEvent: {}
+[13.496223] (-) TimerEvent: {}
+[13.597304] (-) TimerEvent: {}
+[13.698194] (-) TimerEvent: {}
+[13.804146] (-) TimerEvent: {}
+[13.909942] (-) TimerEvent: {}
+[14.012302] (-) TimerEvent: {}
+[14.118682] (-) TimerEvent: {}
+[14.174062] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_robot_interfaces__py\n'}
+[14.221579] (-) TimerEvent: {}
+[14.234824] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__python\x1b[0m\n'}
+[14.327942] (-) TimerEvent: {}
+[14.344628] (my_robot_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_turtle_s.c.o\x1b[0m\n'}
+[14.368710] (my_robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_turtle_array_s.c.o\x1b[0m\n'}
+[14.435739] (-) TimerEvent: {}
+[14.538151] (-) TimerEvent: {}
+[14.640689] (-) TimerEvent: {}
+[14.743424] (-) TimerEvent: {}
+[14.799426] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__python.so\x1b[0m\n'}
+[14.844506] (-) TimerEvent: {}
+[14.928976] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_robot_interfaces__python\n'}
+[14.946118] (-) TimerEvent: {}
+[14.971012] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.974116] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.978191] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[15.054877] (-) TimerEvent: {}
+[15.062460] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.065060] (my_robot_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.083885] (my_robot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.161478] (-) TimerEvent: {}
+[15.278194] (-) TimerEvent: {}
+[15.388405] (-) TimerEvent: {}
+[15.458464] (my_robot_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.466568] (my_robot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.489546] (-) TimerEvent: {}
+[15.492649] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.588238] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[15.589976] (-) TimerEvent: {}
+[15.616033] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[15.690345] (-) TimerEvent: {}
+[15.693566] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.753162] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[15.791859] (-) TimerEvent: {}
+[15.893490] (-) TimerEvent: {}
+[15.995754] (-) TimerEvent: {}
+[16.010818] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[16.042752] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces'], 'cwd': '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tomo'), ('SSH_AGENT_PID', '1333'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tomo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/117/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/117/usr/share/code/code'), ('MANAGERPID', '1057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4120'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tomo/Documents/turtlebot3_ws/install:/home/tomo/colcon_ws/install:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tomo'), ('JOURNAL_STREAM', '8:31260'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tomo-VirtualBox:@/tmp/.ICE-unix/1395,unix/tomo-VirtualBox:/tmp/.ICE-unix/1395'), ('INVOCATION_ID', '0e4785638865462da63372bc7b3f8665'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-89e5371be1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/117/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_bringup:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/my_robot_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/build/my_py_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/build/turtlebot3_example:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_bringup:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_cpp_pkg:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_robot_interfaces:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[16.062928] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.065389] (my_robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.067138] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[16.090164] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__functions.h\n'}
+[16.097948] (-) TimerEvent: {}
+[16.108042] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__struct.h\n'}
+[16.124401] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__type_support.h\n'}
+[16.143345] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__functions.h\n'}
+[16.170645] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__struct.h\n'}
+[16.193906] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__type_support.h\n'}
+[16.198975] (-) TimerEvent: {}
+[16.211812] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.229923] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/turtle.h\n'}
+[16.261599] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/turtle_array.h\n'}
+[16.299626] (-) TimerEvent: {}
+[16.303192] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[16.328692] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[16.352781] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[16.371099] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[16.393847] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.400293] (-) TimerEvent: {}
+[16.418535] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[16.443883] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.474477] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.500777] (-) TimerEvent: {}
+[16.501298] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.527273] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.552041] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[16.588530] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[16.601504] (-) TimerEvent: {}
+[16.614533] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.657691] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__builder.hpp\n'}
+[16.676352] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__struct.hpp\n'}
+[16.696639] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__traits.hpp\n'}
+[16.703576] (-) TimerEvent: {}
+[16.726630] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__builder.hpp\n'}
+[16.747823] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__struct.hpp\n'}
+[16.773601] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__traits.hpp\n'}
+[16.804623] (-) TimerEvent: {}
+[16.809389] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/turtle.hpp\n'}
+[16.855382] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/turtle_array.hpp\n'}
+[16.878397] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.908735] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.909169] (-) TimerEvent: {}
+[16.933466] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[16.963687] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[16.992243] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py\n'}
+[17.009978] (-) TimerEvent: {}
+[17.023243] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/__init__.py\n'}
+[17.046262] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_turtle.py\n'}
+[17.076801] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_turtle_array.py\n'}
+[17.108052] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[17.116151] (-) TimerEvent: {}
+[17.133604] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[17.155920] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[17.180505] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so\n'}
+[17.206743] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.idl\n'}
+[17.221165] (-) TimerEvent: {}
+[17.233726] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.idl\n'}
+[17.261471] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.msg\n'}
+[17.291129] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.msg\n'}
+[17.317494] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[17.321559] (-) TimerEvent: {}
+[17.346147] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[17.381091] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[17.424357] (-) TimerEvent: {}
+[17.426044] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[17.455366] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[17.480435] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[17.505294] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[17.525781] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[17.526095] (-) TimerEvent: {}
+[17.547370] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[17.570971] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[17.591556] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[17.615418] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[17.629394] (-) TimerEvent: {}
+[17.639697] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[17.668325] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.695952] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.725305] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.731259] (-) TimerEvent: {}
+[17.758236] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.798394] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.833036] (-) TimerEvent: {}
+[17.842130] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.869838] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[17.914324] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[17.939820] (-) TimerEvent: {}
+[17.950216] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[17.981706] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[17.985755] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""\n'}
+[17.988045] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[17.989235] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.990074] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[17.991812] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[17.992638] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[17.996046] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.997920] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[17.999738] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[18.043277] (-) TimerEvent: {}
+[18.136238] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py'...\n"}
+[18.144022] (-) TimerEvent: {}
+[18.149198] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[18.150421] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.152273] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.152731] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.153273] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[18.153984] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.154413] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[18.154827] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.155292] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.155955] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[18.162889] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.166150] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[18.252055] (-) TimerEvent: {}
+[18.353763] (-) TimerEvent: {}
+[18.454751] (-) TimerEvent: {}
+[18.555946] (-) TimerEvent: {}
+[18.640665] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[18.643953] (-) EventReactorShutdown: {}

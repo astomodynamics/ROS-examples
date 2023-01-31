@@ -1,0 +1,33 @@
+[1.143s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/prefix_override:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build
+[1.528s] running develop
+[1.742s] Removing /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim-chaser.egg-link (link to .)
+[1.769s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser' returned '0': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/prefix_override:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build
+[1.775s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/turtlesim_chaser': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/prefix_override:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_chaser build --build-base /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build install --record /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/install.log --install-scripts $base/lib/turtlesim_chaser --single-version-externally-managed
+[2.165s] running egg_info
+[2.167s] writing ../../build/turtlesim_chaser/turtlesim_chaser.egg-info/PKG-INFO
+[2.168s] writing dependency_links to ../../build/turtlesim_chaser/turtlesim_chaser.egg-info/dependency_links.txt
+[2.169s] writing entry points to ../../build/turtlesim_chaser/turtlesim_chaser.egg-info/entry_points.txt
+[2.170s] writing requirements to ../../build/turtlesim_chaser/turtlesim_chaser.egg-info/requires.txt
+[2.170s] writing top-level names to ../../build/turtlesim_chaser/turtlesim_chaser.egg-info/top_level.txt
+[2.228s] reading manifest file '../../build/turtlesim_chaser/turtlesim_chaser.egg-info/SOURCES.txt'
+[2.230s] writing manifest file '../../build/turtlesim_chaser/turtlesim_chaser.egg-info/SOURCES.txt'
+[2.230s] running build
+[2.230s] running build_py
+[2.230s] copying turtlesim_chaser/turtle_spawner.py -> /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build/lib/turtlesim_chaser
+[2.231s] running install
+[2.232s] running install_lib
+[2.233s] creating /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim_chaser
+[2.234s] copying /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build/lib/turtlesim_chaser/__init__.py -> /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim_chaser
+[2.234s] copying /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build/lib/turtlesim_chaser/turtle_controller.py -> /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim_chaser
+[2.235s] copying /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build/lib/turtlesim_chaser/turtle_spawner.py -> /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim_chaser
+[2.235s] byte-compiling /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim_chaser/__init__.py to __init__.cpython-38.pyc
+[2.237s] byte-compiling /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim_chaser/turtle_controller.py to turtle_controller.cpython-38.pyc
+[2.238s] byte-compiling /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim_chaser/turtle_spawner.py to turtle_spawner.cpython-38.pyc
+[2.238s] running install_data
+[2.239s] running install_egg_info
+[2.241s] Copying ../../build/turtlesim_chaser/turtlesim_chaser.egg-info to /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages/turtlesim_chaser-0.0.0-py3.8.egg-info
+[2.244s] running install_scripts
+[2.272s] Installing turtle_controller script to /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/turtlesim_chaser
+[2.272s] Installing turtle_spawner script to /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/turtlesim_chaser
+[2.273s] writing list of installed files to '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/install.log'
+[2.310s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/turtlesim_chaser' returned '0': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/prefix_override:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_chaser build --build-base /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build install --record /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/install.log --install-scripts $base/lib/turtlesim_chaser --single-version-externally-managed

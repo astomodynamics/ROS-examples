@@ -1,0 +1,204 @@
+[0.047s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/turtlesim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces
+[0.181s] -- The C compiler identification is GNU 9.4.0
+[0.298s] -- The CXX compiler identification is GNU 9.4.0
+[0.309s] -- Check for working C compiler: /usr/bin/cc
+[0.447s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.449s] -- Detecting C compiler ABI info
+[0.603s] -- Detecting C compiler ABI info - done
+[0.633s] -- Detecting C compile features
+[0.634s] -- Detecting C compile features - done
+[0.641s] -- Check for working CXX compiler: /usr/bin/c++
+[0.807s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.808s] -- Detecting CXX compiler ABI info
+[0.954s] -- Detecting CXX compiler ABI info - done
+[0.977s] -- Detecting CXX compile features
+[0.978s] -- Detecting CXX compile features - done
+[0.986s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.048s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.048s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.344s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.419s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.466s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.752s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.810s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.073s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.297s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.568s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.573s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.634s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.634s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.635s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.635s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.684s] -- Found PythonExtra: .so  
+[2.809s] -- Configuring done
+[2.902s] -- Generating done
+[2.914s] -- Build files have been written to: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces
+[2.931s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/turtlesim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces
+[2.932s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces -- -j6 -l6
+[3.008s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.008s] [35m[1mScanning dependencies of target turtlesim_interfaces__cpp[0m
+[3.026s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.549s] [  5%] Built target turtlesim_interfaces__cpp
+[3.587s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.606s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.614s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.642s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_generator_c[0m
+[3.670s] [ 15%] [32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_interfaces/msg/detail/turtle__functions.c.o[0m
+[3.689s] [ 17%] [32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_interfaces/msg/detail/turtle_array__functions.c.o[0m
+[3.777s] [ 20%] [32m[1mLinking C shared library libturtlesim_interfaces__rosidl_generator_c.so[0m
+[3.859s] [ 20%] Built target turtlesim_interfaces__rosidl_generator_c
+[3.883s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.913s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.085s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_typesupport_cpp[0m
+[4.103s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.120s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_interfaces/msg/turtle__type_support.cpp.o[0m
+[4.157s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_interfaces/msg/detail/turtle__type_support.cpp.o[0m
+[4.158s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[4.288s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.355s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o[0m
+[4.560s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_typesupport_c[0m
+[4.610s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_interfaces/msg/turtle__type_support.cpp.o[0m
+[4.637s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_typesupport_introspection_c[0m
+[4.709s] [ 41%] [32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_interfaces/msg/detail/turtle__type_support.c.o[0m
+[4.903s] [ 43%] [32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_interfaces/msg/detail/turtle_array__type_support.c.o[0m
+[5.108s] [ 46%] [32m[1mLinking C shared library libturtlesim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.334s] [ 48%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o[0m
+[5.356s] [ 51%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[5.371s] [ 51%] Built target turtlesim_interfaces__rosidl_typesupport_introspection_c
+[5.453s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_interfaces/msg/detail/turtle_array__type_support.cpp.o[0m
+[5.463s] [ 56%] [32m[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_cpp.so[0m
+[5.475s] [ 58%] [32m[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_c.so[0m
+[5.575s] [ 58%] Built target turtlesim_interfaces__rosidl_typesupport_cpp
+[5.606s] [ 58%] Built target turtlesim_interfaces__rosidl_typesupport_c
+[6.252s] [ 61%] [32m[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.428s] [ 64%] [32m[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.506s] [ 64%] Built target turtlesim_interfaces__rosidl_typesupport_introspection_cpp
+[6.690s] [ 64%] Built target turtlesim_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.735s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.392s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_typesupport_fastrtps_c[0m
+[7.422s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_interfaces/msg/detail/turtle_array__type_support_c.cpp.o[0m
+[7.424s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_interfaces/msg/detail/turtle__type_support_c.cpp.o[0m
+[7.979s] [ 74%] [32m[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.134s] [ 74%] Built target turtlesim_interfaces__rosidl_typesupport_fastrtps_c
+[8.156s] [35m[1mScanning dependencies of target turtlesim_interfaces[0m
+[8.176s] [ 74%] Built target turtlesim_interfaces
+[8.196s] [35m[1mScanning dependencies of target turtlesim_interfaces__py[0m
+[8.227s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.970s] [ 76%] Built target turtlesim_interfaces__py
+[10.016s] [35m[1mScanning dependencies of target turtlesim_interfaces__python[0m
+[10.109s] [ 79%] [32mBuilding C object CMakeFiles/turtlesim_interfaces__python.dir/rosidl_generator_py/turtlesim_interfaces/msg/_turtle_array_s.c.o[0m
+[10.123s] [ 82%] [32mBuilding C object CMakeFiles/turtlesim_interfaces__python.dir/rosidl_generator_py/turtlesim_interfaces/msg/_turtle_s.c.o[0m
+[10.453s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim_interfaces/libturtlesim_interfaces__python.so[0m
+[10.572s] [ 84%] Built target turtlesim_interfaces__python
+[10.605s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_typesupport_c__pyext[0m
+[10.609s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[10.622s] [35m[1mScanning dependencies of target turtlesim_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[10.683s] [ 89%] [32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.684s] [ 89%] [32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.698s] [ 92%] [32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.918s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.940s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.972s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.016s] [100%] Built target turtlesim_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.016s] [100%] Built target turtlesim_interfaces__rosidl_typesupport_c__pyext
+[11.094s] [100%] Built target turtlesim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.126s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces -- -j6 -l6
+[11.361s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces
+[11.389s] -- Install configuration: ""
+[11.390s] -- Execute custom install script
+[11.396s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtlesim_interfaces
+[11.418s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__functions.h
+[11.435s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__struct.h
+[11.450s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__type_support.h
+[11.467s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__functions.h
+[11.483s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__struct.h
+[11.502s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__type_support.h
+[11.519s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.537s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/turtle.h
+[11.556s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/turtle_array.h
+[11.572s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/library_path.sh
+[11.592s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/library_path.dsv
+[11.610s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h
+[11.632s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h
+[11.648s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.666s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.685s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[11.703s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[11.722s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.741s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.761s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+[11.784s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+[11.801s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.816s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__builder.hpp
+[11.831s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__struct.hpp
+[11.845s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__traits.hpp
+[11.859s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__builder.hpp
+[11.878s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__struct.hpp
+[11.896s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__traits.hpp
+[11.914s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/turtle.hpp
+[11.933s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/turtle_array.hpp
+[11.950s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp
+[11.970s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/include/turtlesim_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp
+[11.988s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/pythonpath.sh
+[12.003s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/pythonpath.dsv
+[12.020s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/python3.8/site-packages/turtlesim_interfaces/__init__.py
+[12.035s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/python3.8/site-packages/turtlesim_interfaces/msg/__init__.py
+[12.050s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/python3.8/site-packages/turtlesim_interfaces/msg/_turtle.py
+[12.064s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/python3.8/site-packages/turtlesim_interfaces/msg/_turtle_array.py
+[12.085s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/python3.8/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[12.103s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/python3.8/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[12.123s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/python3.8/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[12.144s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__python.so
+[12.162s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/msg/Turtle.idl
+[12.179s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/msg/TurtleArray.idl
+[12.199s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/msg/Turtle.msg
+[12.217s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/msg/TurtleArray.msg
+[12.232s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlesim_interfaces
+[12.247s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlesim_interfaces
+[12.262s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/ament_prefix_path.sh
+[12.277s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/ament_prefix_path.dsv
+[12.295s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/path.sh
+[12.315s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/path.dsv
+[12.332s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.bash
+[12.354s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.sh
+[12.375s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.zsh
+[12.399s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.dsv
+[12.419s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/package.dsv
+[12.439s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/ament_index/resource_index/packages/turtlesim_interfaces
+[12.462s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.484s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.505s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.521s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.538s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.562s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.581s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.599s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfacesConfig.cmake
+[12.619s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfacesConfig-version.cmake
+[12.637s] -- Symlinking: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/package.xml
+[12.656s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_c.so
+[12.658s] -- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_c.so" to ""
+[12.659s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_c.so
+[12.660s] -- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.661s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_c.so
+[12.661s] -- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_c.so" to ""
+[12.663s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.664s] -- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.667s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_cpp.so
+[12.668s] -- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.741s] Compiling '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/lib/python3.8/site-packages/turtlesim_interfaces/__init__.py'...
+[12.752s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_generator_cExport.cmake
+[12.753s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.753s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.754s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.754s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cExport.cmake
+[12.755s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.756s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_generator_cppExport.cmake
+[12.756s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.756s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.756s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cppExport.cmake
+[12.757s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.762s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install/my_py_pkg:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces

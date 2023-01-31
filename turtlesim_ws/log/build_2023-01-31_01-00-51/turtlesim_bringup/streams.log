@@ -1,0 +1,22 @@
+[0.059s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup -- -j6 -l6
+[0.143s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup -- -j6 -l6
+[0.225s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup
+[0.240s] -- Install configuration: ""
+[0.241s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/launch
+[0.241s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/launch/turtlesim_chaser.launch.py
+[0.241s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/ament_index/resource_index/package_run_dependencies/turtlesim_bringup
+[0.242s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/ament_index/resource_index/parent_prefix_path/turtlesim_bringup
+[0.242s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/environment/ament_prefix_path.sh
+[0.242s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/environment/ament_prefix_path.dsv
+[0.243s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/environment/path.sh
+[0.243s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/environment/path.dsv
+[0.243s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.bash
+[0.246s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.sh
+[0.247s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.zsh
+[0.249s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.dsv
+[0.250s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/package.dsv
+[0.254s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/ament_index/resource_index/packages/turtlesim_bringup
+[0.255s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/cmake/turtlesim_bringupConfig.cmake
+[0.256s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/cmake/turtlesim_bringupConfig-version.cmake
+[0.256s] -- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup/share/turtlesim_bringup/package.xml
+[0.263s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_bringup

@@ -1,0 +1,8 @@
+msg/Turtle.idl
+msg/Turtle.msg
+msg/TurtleArray.idl
+msg/TurtleArray.msg
+srv/EliminateTurtle.idl
+srv/EliminateTurtle.srv
+srv/EliminateTurtle_Request.msg
+srv/EliminateTurtle_Response.msg

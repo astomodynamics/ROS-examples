@@ -1,0 +1,136 @@
+[0.347s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'turtlesim_chaser', '--symlink-install']
+[0.348s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff60ed937c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['turtlesim_chaser'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff60ed937c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff60ed1d4c0>)
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.396s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_chaser) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_chaser' with type 'ros.ament_python' and name 'turtlesim_chaser'
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.500s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/tomo/Documents/turtlebot3_ws/install
+[0.503s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/tomo/colcon_ws/install
+[0.508s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/tomo/Documents/ae7785-intro-to-robo/ros2_demo_ws/install
+[0.522s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 339 installed packages in /opt/ros/foxy
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_chaser' build argument 'cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_chaser' build argument 'cmake_target' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_chaser' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_chaser' build argument 'cmake_clean_cache' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_chaser' build argument 'cmake_clean_first' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_chaser' build argument 'cmake_force_configure' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_chaser' build argument 'ament_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_chaser' build argument 'catkin_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_chaser' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.785s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_chaser' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser', 'merge_install': False, 'path': '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/turtlesim_chaser', 'symlink_install': True, 'test_result_base': None}
+[0.787s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.794s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/turtlesim_chaser' with build type 'ament_python'
+[0.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_chaser', 'ament_prefix_path')
+[0.805s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/hook/ament_prefix_path.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/hook/ament_prefix_path.dsv'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/hook/ament_prefix_path.sh'
+[0.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.111s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/src/turtlesim_chaser'
+[2.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.951s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/ament_index/resource_index/packages/turtlesim_chaser
+[3.952s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/package.xml
+[3.954s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/turtlesim_chaser/turtle_controller
+[3.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/prefix_override:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build --no-deps install_data
+[5.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_chaser', 'pythonpath_develop')
+[5.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/share/turtlesim_chaser/hook/pythonpath_develop.ps1'
+[5.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser' returned '0': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/prefix_override:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/build --no-deps install_data
+[5.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/share/turtlesim_chaser/hook/pythonpath_develop.dsv'
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_chaser/share/turtlesim_chaser/hook/pythonpath_develop.sh'
+[5.591s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser' for CMake module files
+[5.592s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser' for CMake config files
+[5.594s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib'
+[5.594s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/bin'
+[5.594s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/pkgconfig/turtlesim_chaser.pc'
+[5.595s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/lib/python3.8/site-packages'
+[5.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_chaser', 'pythonpath')
+[5.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/hook/pythonpath.ps1'
+[5.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/hook/pythonpath.dsv'
+[5.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/hook/pythonpath.sh'
+[5.601s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/bin'
+[5.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_chaser)
+[5.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/package.ps1'
+[5.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/package.dsv'
+[5.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/package.sh'
+[5.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/package.bash'
+[5.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/turtlesim_chaser/package.zsh'
+[5.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser/share/colcon-core/packages/turtlesim_chaser)
+[5.614s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.618s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.628s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.628s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.628s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.669s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.674s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/local_setup.ps1'
+[5.676s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/_local_setup_util_ps1.py'
+[5.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/setup.ps1'
+[5.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/local_setup.sh'
+[5.710s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/_local_setup_util_sh.py'
+[5.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/setup.sh'
+[5.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/local_setup.bash'
+[5.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/setup.bash'
+[5.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/local_setup.zsh'
+[5.749s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/setup.zsh'

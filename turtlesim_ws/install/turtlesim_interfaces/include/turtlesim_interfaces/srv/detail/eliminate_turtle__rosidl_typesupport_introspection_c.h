@@ -1,0 +1,1 @@
+/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces/rosidl_typesupport_introspection_c/turtlesim_interfaces/srv/detail/eliminate_turtle__rosidl_typesupport_introspection_c.h

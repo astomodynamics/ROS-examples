@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/tomo/ae7785-intro-to-robo/turtlesim_ws/build/turtlesim_interfaces/libturtlesim_interfaces__rosidl_typesupport_fastrtps_c.so" "TARGETS" "turtlesim_interfaces__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
