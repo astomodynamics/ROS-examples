@@ -1,0 +1,3 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/ros2_demo_ws/build/my_robot_interfaces/my_robot_interfaces__py"
+}
