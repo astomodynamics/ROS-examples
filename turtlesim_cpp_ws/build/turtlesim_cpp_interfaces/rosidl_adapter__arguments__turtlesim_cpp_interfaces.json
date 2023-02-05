@@ -1,0 +1,8 @@
+{
+  "package_name": "turtlesim_cpp_interfaces",
+  "non_idl_tuples": [
+    "/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_interfaces:msg/Turtle.msg",
+    "/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_interfaces:msg/TurtleArray.msg",
+    "/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_interfaces:srv/CatchTurtle.srv"
+  ]
+}

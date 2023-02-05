@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target turtle_cpp_controller[0m
+[ 50%] Built target turtle_cpp_spawner
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_cpp_controller.dir/src/turtle_cpp_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_cpp_controller[0m
+[100%] Built target turtle_cpp_controller
+-- Install configuration: ""
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/lib/turtlesim_cpp_chaser/turtle_cpp_controller
+-- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/lib/turtlesim_cpp_chaser/turtle_cpp_controller" to ""
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/lib/turtlesim_cpp_chaser/turtle_cpp_spawner
+-- Set runtime path of "/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/lib/turtlesim_cpp_chaser/turtle_cpp_spawner" to ""
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/ament_index/resource_index/package_run_dependencies/turtlesim_cpp_chaser
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/ament_index/resource_index/parent_prefix_path/turtlesim_cpp_chaser
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/environment/ament_prefix_path.sh
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/environment/ament_prefix_path.dsv
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/environment/path.sh
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/environment/path.dsv
+-- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/local_setup.bash
+-- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/local_setup.sh
+-- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/local_setup.zsh
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/local_setup.dsv
+-- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/package.dsv
+-- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/ament_index/resource_index/packages/turtlesim_cpp_chaser
+-- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/cmake/turtlesim_cpp_chaserConfig.cmake
+-- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/cmake/turtlesim_cpp_chaserConfig-version.cmake
+-- Up-to-date: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser/share/turtlesim_cpp_chaser/package.xml

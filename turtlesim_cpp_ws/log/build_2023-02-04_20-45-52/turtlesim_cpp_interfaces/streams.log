@@ -1,0 +1,46 @@
+[0.093s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_interfaces -DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces
+[1.206s] -- The C compiler identification is GNU 9.4.0
+[1.720s] -- The CXX compiler identification is GNU 9.4.0
+[1.753s] -- Check for working C compiler: /usr/bin/cc
+[2.017s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.019s] -- Detecting C compiler ABI info
+[2.170s] -- Detecting C compiler ABI info - done
+[2.194s] -- Detecting C compile features
+[2.195s] -- Detecting C compile features - done
+[2.198s] -- Check for working CXX compiler: /usr/bin/c++
+[2.331s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.333s] -- Detecting CXX compiler ABI info
+[2.513s] -- Detecting CXX compiler ABI info - done
+[2.541s] -- Detecting CXX compile features
+[2.544s] -- Detecting CXX compile features - done
+[2.573s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.678s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.680s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.294s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.589s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.596s] -- Added test 'lint_cmake' to check CMake code style
+[3.606s] -- Added test 'xmllint' to check XML markup files
+[3.611s] -- Configuring done
+[3.616s] -- Generating done
+[3.619s] -- Build files have been written to: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces
+[3.635s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_interfaces -DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces
+[3.645s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces -- -j6 -l6
+[3.727s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces -- -j6 -l6
+[3.823s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces
+[3.841s] -- Install configuration: ""
+[3.844s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlesim_cpp_interfaces
+[3.844s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlesim_cpp_interfaces
+[3.844s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/environment/ament_prefix_path.sh
+[3.846s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/environment/ament_prefix_path.dsv
+[3.847s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/environment/path.sh
+[3.847s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/environment/path.dsv
+[3.847s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/local_setup.bash
+[3.848s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/local_setup.sh
+[3.848s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/local_setup.zsh
+[3.848s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/local_setup.dsv
+[3.848s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/package.dsv
+[3.848s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/ament_index/resource_index/packages/turtlesim_cpp_interfaces
+[3.851s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/cmake/turtlesim_cpp_interfacesConfig.cmake
+[3.851s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/cmake/turtlesim_cpp_interfacesConfig-version.cmake
+[3.852s] -- Installing: /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/share/turtlesim_cpp_interfaces/package.xml
+[3.861s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces

@@ -1,0 +1,90 @@
+[35m[1mScanning dependencies of target turtle_cpp_controller[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_cpp_spawner.dir/src/turtle_cpp_spawner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_cpp_controller.dir/src/turtle_cpp_controller.cpp.o[0m
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:154:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ does not name a type; did you mean ‘[01m[Krcl_interfaces[m[K’?
+  154 |     [01;31m[Kmy_robot_interfaces[m[K::msg::Turtle turtle_to_catch_;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_interfaces[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+  158 |     rclcpp::Subscription<[01;31m[Kmy_robot_interfaces[m[K::msg::TurtleArray>::SharedPtr turtles_to_catch_subscriber_;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                          [32m[Krcl_interfaces[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  158 |     rclcpp::Subscription<my_robot_interfaces::msg::TurtleArray[01;31m[K>[m[K::SharedPtr turtles_to_catch_subscriber_;
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  158 |     rclcpp::Subscription<my_robot_interfaces::msg::TurtleArray>::[01;31m[KSharedPtr[m[K turtles_to_catch_subscriber_;
+      |                                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                                           [32m[K;[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtles_to_catch_subscriber_[m[K’ does not name a type
+  158 |     rclcpp::Subscription<my_robot_interfaces::msg::TurtleArray>::SharedPtr [01;31m[Kturtles_to_catch_subscriber_[m[K;
+      |                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:[m[K In constructor ‘[01m[KTurtleSpawnerNode::TurtleSpawnerNode()[m[K’:
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:17:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   17 |             this->create_publisher<[01;31m[Kmy_robot_interfaces[m[K::msg::TurtleArray>("alive_turtles", 10);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                    [32m[Krcl_interfaces[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:17:19:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   17 |             this->[01;31m[Kcreate_publisher<my_robot_interfaces::msg::TurtleArray>[m[K("alive_turtles", 10);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:17:94:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleSpawnerNode::create_publisher<<expression error> >(const char [14], int)[m[K’
+   17 |             this->create_publisher<my_robot_interfaces::msg::TurtleArray>("alive_turtles", 10[01;31m[K)[m[K;
+      |                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:17:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |             this->create_publisher<my_robot_interfaces::msg::TurtleArray>("alive_turtles", 10[01;31m[K)[m[K;
+      |                                                                                              [01;31m[K^[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:[m[K In constructor ‘[01m[KTurtleControllerNode::TurtleControllerNode()[m[K’:
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtles_to_catch_subscriber_[m[K’ was not declared in this scope
+   20 |         [01;31m[Kturtles_to_catch_subscriber_[m[K = this->create_subscription<turtlesim_cpp_interfaces::msg::TurtleArray>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::callbackTurtlesToCatch(turtlesim_cpp_interfaces::msg::TurtleArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:60:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_to_catch_[m[K’ was not declared in this scope
+   60 |                 [01;31m[Kturtle_to_catch_[m[K = closest_turtle;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:64:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_to_catch_[m[K’ was not declared in this scope
+   64 |                 [01;31m[Kturtle_to_catch_[m[K = msg->turtles.at(0);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::controlLoop()[m[K’:
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:79:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_to_catch_[m[K’ was not declared in this scope
+   79 |         if (!turtlesim_up_ || [01;31m[Kturtle_to_catch_[m[K.name == "")
+      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:84:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_to_catch_[m[K’ was not declared in this scope
+   84 |         double dist_x = [01;31m[Kturtle_to_catch_[m[K.x - pose_.x;
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::callCatchTurtleService(std::string)[m[K’:
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:125:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+  125 |         auto client = this->create_client<[01;31m[Kmy_robot_interfaces[m[K::srv::CatchTurtle>("catch_turtle");
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[Krcl_interfaces[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:125:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  125 |         auto client = this->[01;31m[Kcreate_client<my_robot_interfaces::srv::CatchTurtle>[m[K("catch_turtle");
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:125:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleControllerNode::create_client<<expression error> >(const char [13])[m[K’
+  125 |         auto client = this->create_client<my_robot_interfaces::srv::CatchTurtle>("catch_turtle"[01;31m[K)[m[K;
+      |                                                                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  246 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:246:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:125:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  125 |         auto client = this->create_client<my_robot_interfaces::srv::CatchTurtle>("catch_turtle"[01;31m[K)[m[K;
+      |                                                                                                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/turtle_cpp_spawner.dir/build.make:63: CMakeFiles/turtle_cpp_spawner.dir/src/turtle_cpp_spawner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/turtle_cpp_spawner.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/turtle_cpp_controller.dir/build.make:63: CMakeFiles/turtle_cpp_controller.dir/src/turtle_cpp_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_cpp_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

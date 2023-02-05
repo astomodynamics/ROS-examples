@@ -1,0 +1,70 @@
+[0.067s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_chaser': AMENT_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces:/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_chaser -- -j6 -l6
+[0.196s] [35m[1mScanning dependencies of target turtle_cpp_controller[0m
+[0.248s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_cpp_spawner.dir/src/turtle_cpp_spawner.cpp.o[0m
+[0.268s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_cpp_controller.dir/src/turtle_cpp_controller.cpp.o[0m
+[2.864s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:154:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ does not name a type; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.864s]   154 |     [01;31m[Kmy_robot_interfaces[m[K::msg::Turtle turtle_to_catch_;
+[2.864s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.864s]       |     [32m[Krcl_interfaces[m[K
+[2.870s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:[m[K In constructor ‘[01m[KTurtleSpawnerNode::TurtleSpawnerNode()[m[K’:
+[2.871s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:17:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.871s]    17 |             this->create_publisher<[01;31m[Kmy_robot_interfaces[m[K::msg::TurtleArray>("alive_turtles", 10);
+[2.872s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.872s]       |                                    [32m[Krcl_interfaces[m[K
+[2.873s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:17:19:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.873s]    17 |             this->[01;31m[Kcreate_publisher<my_robot_interfaces::msg::TurtleArray>[m[K("alive_turtles", 10);
+[2.873s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.874s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:17:94:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleSpawnerNode::create_publisher<<expression error> >(const char [14], int)[m[K’
+[2.874s]    17 |             this->create_publisher<my_robot_interfaces::msg::TurtleArray>("alive_turtles", 10[01;31m[K)[m[K;
+[2.876s]       |                                                                                              [01;31m[K^[m[K
+[2.876s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.877s]                  from [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:1[m[K:
+[2.877s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.877s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[2.877s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.877s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.877s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_spawner.cpp:17:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.877s]    17 |             this->create_publisher<my_robot_interfaces::msg::TurtleArray>("alive_turtles", 10[01;31m[K)[m[K;
+[2.877s]       |                                                                                              [01;31m[K^[m[K
+[2.907s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.907s]   158 |     rclcpp::Subscription<[01;31m[Kmy_robot_interfaces[m[K::msg::TurtleArray>::SharedPtr turtles_to_catch_subscriber_;
+[2.907s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.907s]       |                          [32m[Krcl_interfaces[m[K
+[2.907s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.908s]   158 |     rclcpp::Subscription<my_robot_interfaces::msg::TurtleArray[01;31m[K>[m[K::SharedPtr turtles_to_catch_subscriber_;
+[2.908s]       |                                                               [01;31m[K^[m[K
+[2.908s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.908s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.908s]   158 |     rclcpp::Subscription<my_robot_interfaces::msg::TurtleArray>::[01;31m[KSharedPtr[m[K turtles_to_catch_subscriber_;
+[2.908s]       |                                                                  [01;31m[K^~~~~~~~~[m[K
+[2.908s]       |                                                                           [32m[K;[m[K
+[2.914s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:158:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtles_to_catch_subscriber_[m[K’ does not name a type
+[2.914s]   158 |     rclcpp::Subscription<my_robot_interfaces::msg::TurtleArray>::SharedPtr [01;31m[Kturtles_to_catch_subscriber_[m[K;
+[2.914s]       |                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.943s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:[m[K In constructor ‘[01m[KTurtleControllerNode::TurtleControllerNode()[m[K’:
+[2.943s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtles_to_catch_subscriber_[m[K’ was not declared in this scope
+[2.943s]    20 |         [01;31m[Kturtles_to_catch_subscriber_[m[K = this->create_subscription<turtlesim_cpp_interfaces::msg::TurtleArray>(
+[2.943s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.005s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::callbackTurtlesToCatch(turtlesim_cpp_interfaces::msg::TurtleArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.005s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:60:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_to_catch_[m[K’ was not declared in this scope
+[3.005s]    60 |                 [01;31m[Kturtle_to_catch_[m[K = closest_turtle;
+[3.005s]       |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.009s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:64:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_to_catch_[m[K’ was not declared in this scope
+[3.009s]    64 |                 [01;31m[Kturtle_to_catch_[m[K = msg->turtles.at(0);
+[3.009s]       |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.025s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::controlLoop()[m[K’:
+[3.025s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:79:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_to_catch_[m[K’ was not declared in this scope
+[3.025s]    79 |         if (!turtlesim_up_ || [01;31m[Kturtle_to_catch_[m[K.name == "")
+[3.025s]       |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.030s] [01m[K/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_chaser/src/turtle_cpp_controller.cpp:84:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_to_catch_[m[K’ was not declared in this scope
+[3.030s]    84 |         double dist_x = [01;31m[Kturtle_to_catch_[m[K.x - pose_.x;
+[3.030s]       |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.158s] make[2]: *** [CMakeFiles/turtle_cpp_spawner.dir/build.make:63: CMakeFiles/turtle_cpp_spawner.dir/src/turtle_cpp_spawner.cpp.o] Error 1
+[5.158s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/turtle_cpp_spawner.dir/all] Error 2
+[5.158s] make[1]: *** Waiting for unfinished jobs....
+[7.364s] make[2]: *** [CMakeFiles/turtle_cpp_controller.dir/build.make:63: CMakeFiles/turtle_cpp_controller.dir/src/turtle_cpp_controller.cpp.o] Error 1
+[7.365s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_cpp_controller.dir/all] Error 2
+[7.365s] make: *** [Makefile:141: all] Error 2
+[7.368s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_chaser' returned '2': AMENT_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces:/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_chaser:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_bringup:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_interfaces:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/my_robot_interfaces:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_simulations:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_navigation2:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_fake_node:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_msgs:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_gazebo:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_description:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_cartographer:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_examples:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/tomo/Documents/turtlebot3_ws/install/dynamixel_sdk:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/install/turtlesim_cpp_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_chaser -- -j6 -l6

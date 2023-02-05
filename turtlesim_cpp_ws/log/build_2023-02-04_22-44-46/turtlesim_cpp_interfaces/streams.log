@@ -1,0 +1,21 @@
+[0.149s] Invoking command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces -- -j6 -l6
+[0.355s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.459s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.014s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.043s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.109s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.619s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.675s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.904s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.904s]   rosidl_generate_interfaces() the passed file 'msg/Turtle.msg' doesn't exist
+[1.904s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.904s]   '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_interfaces'
+[1.904s] Call Stack (most recent call first):
+[1.904s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[1.904s] 
+[1.904s] 
+[1.905s] -- Configuring incomplete, errors occurred!
+[1.906s] See also "/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces/CMakeFiles/CMakeOutput.log".
+[1.912s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.915s] Invoked command in '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/turtlesim_ws/install/turtlesim_chaser:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/tomo/Documents/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/build/turtlesim_cpp_interfaces -- -j6 -l6

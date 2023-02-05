@@ -1,0 +1,9 @@
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'msg/Turtle.msg' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/tomo/ae7785-intro-to-robo/turtlesim_cpp_ws/src/turtlesim_cpp_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:17 (rosidl_generate_interfaces)
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1
