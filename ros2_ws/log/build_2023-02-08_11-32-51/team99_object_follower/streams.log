@@ -1,0 +1,19 @@
+[1.154s] Invoking command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/prefix_override:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build --no-deps install_data
+[1.454s] running develop
+[1.702s] running egg_info
+[1.703s] writing team99_object_follower.egg-info/PKG-INFO
+[1.703s] writing dependency_links to team99_object_follower.egg-info/dependency_links.txt
+[1.704s] writing entry points to team99_object_follower.egg-info/entry_points.txt
+[1.704s] writing requirements to team99_object_follower.egg-info/requires.txt
+[1.704s] writing top-level names to team99_object_follower.egg-info/top_level.txt
+[1.756s] reading manifest file 'team99_object_follower.egg-info/SOURCES.txt'
+[1.757s] writing manifest file 'team99_object_follower.egg-info/SOURCES.txt'
+[1.806s] running build_ext
+[1.830s] Creating /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/site.py
+[1.833s] Creating /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99-object-follower.egg-link (link to .)
+[1.834s] Installing find_object script to /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/team99_object_follower
+[1.834s] Installing rotate_robot script to /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/team99_object_follower
+[1.835s] 
+[1.835s] Installed /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower
+[1.835s] running install_data
+[1.867s] Invoked command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower' returned '0': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/prefix_override:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build --no-deps install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+find_object = team99_object_follower.find_object:main
+rotate_robot = team99_object_follower.rotate_robot:main
+

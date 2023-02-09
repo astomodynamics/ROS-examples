@@ -1,0 +1,25 @@
+[2.580s] Invoking command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/team99_object_follower': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/prefix_override:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team99_object_follower build --build-base /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build install --record /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/install.log --install-scripts $base/lib/team99_object_follower --single-version-externally-managed
+[3.081s] running egg_info
+[3.082s] writing ../../build/team99_object_follower/team99_object_follower.egg-info/PKG-INFO
+[3.083s] writing dependency_links to ../../build/team99_object_follower/team99_object_follower.egg-info/dependency_links.txt
+[3.083s] writing entry points to ../../build/team99_object_follower/team99_object_follower.egg-info/entry_points.txt
+[3.084s] writing requirements to ../../build/team99_object_follower/team99_object_follower.egg-info/requires.txt
+[3.084s] writing top-level names to ../../build/team99_object_follower/team99_object_follower.egg-info/top_level.txt
+[3.191s] reading manifest file '../../build/team99_object_follower/team99_object_follower.egg-info/SOURCES.txt'
+[3.194s] writing manifest file '../../build/team99_object_follower/team99_object_follower.egg-info/SOURCES.txt'
+[3.195s] running build
+[3.195s] running build_py
+[3.195s] copying team99_object_follower/find_object.py -> /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib/team99_object_follower
+[3.195s] running install
+[3.197s] running install_lib
+[3.199s] copying /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib/team99_object_follower/find_object.py -> /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower
+[3.200s] byte-compiling /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower/find_object.py to find_object.cpython-38.pyc
+[3.202s] running install_data
+[3.203s] running install_egg_info
+[3.205s] removing '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower-0.0.0-py3.8.egg-info' (and everything under it)
+[3.215s] Copying ../../build/team99_object_follower/team99_object_follower.egg-info to /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower-0.0.0-py3.8.egg-info
+[3.233s] running install_scripts
+[3.256s] Installing find_object script to /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/team99_object_follower
+[3.257s] Installing rotate_robot script to /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/team99_object_follower
+[3.257s] writing list of installed files to '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/install.log'
+[3.283s] Invoked command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/team99_object_follower' returned '0': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/prefix_override:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team99_object_follower build --build-base /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build install --record /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/install.log --install-scripts $base/lib/team99_object_follower --single-version-externally-managed
