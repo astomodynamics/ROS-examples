@@ -1,0 +1,41 @@
+[1.193s] Invoking command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/team99_object_follower': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/prefix_override:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team99_object_follower build --build-base /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build install --record /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/install.log --install-scripts $base/lib/team99_object_follower --single-version-externally-managed
+[1.702s] running egg_info
+[1.703s] creating ../../build/team99_object_follower/team99_object_follower.egg-info
+[1.704s] writing ../../build/team99_object_follower/team99_object_follower.egg-info/PKG-INFO
+[1.705s] writing dependency_links to ../../build/team99_object_follower/team99_object_follower.egg-info/dependency_links.txt
+[1.706s] writing entry points to ../../build/team99_object_follower/team99_object_follower.egg-info/entry_points.txt
+[1.708s] writing requirements to ../../build/team99_object_follower/team99_object_follower.egg-info/requires.txt
+[1.709s] writing top-level names to ../../build/team99_object_follower/team99_object_follower.egg-info/top_level.txt
+[1.713s] writing manifest file '../../build/team99_object_follower/team99_object_follower.egg-info/SOURCES.txt'
+[1.896s] reading manifest file '../../build/team99_object_follower/team99_object_follower.egg-info/SOURCES.txt'
+[1.910s] writing manifest file '../../build/team99_object_follower/team99_object_follower.egg-info/SOURCES.txt'
+[1.912s] running build
+[1.912s] running build_py
+[1.914s] creating /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build
+[1.914s] creating /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib
+[1.915s] creating /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib/team99_object_follower
+[1.915s] copying team99_object_follower/__init__.py -> /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib/team99_object_follower
+[1.915s] copying team99_object_follower/rotate_robot.py -> /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib/team99_object_follower
+[1.915s] copying team99_object_follower/find_object.py -> /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib/team99_object_follower
+[1.916s] running install
+[1.927s] running install_lib
+[1.929s] creating /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower
+[1.929s] copying /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib/team99_object_follower/__init__.py -> /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower
+[1.929s] copying /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib/team99_object_follower/rotate_robot.py -> /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower
+[1.930s] copying /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build/lib/team99_object_follower/find_object.py -> /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower
+[1.935s] byte-compiling /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower/__init__.py to __init__.cpython-38.pyc
+[1.937s] byte-compiling /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower/rotate_robot.py to rotate_robot.cpython-38.pyc
+[1.940s] byte-compiling /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower/find_object.py to find_object.cpython-38.pyc
+[1.948s] running install_data
+[1.954s] creating /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/ament_index
+[1.954s] creating /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/ament_index/resource_index
+[1.955s] creating /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/ament_index/resource_index/packages
+[1.956s] copying resource/team99_object_follower -> /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/ament_index/resource_index/packages
+[1.956s] copying package.xml -> /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower
+[1.957s] running install_egg_info
+[1.961s] Copying ../../build/team99_object_follower/team99_object_follower.egg-info to /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages/team99_object_follower-0.0.0-py3.8.egg-info
+[1.970s] running install_scripts
+[2.062s] Installing find_object script to /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/team99_object_follower
+[2.066s] Installing rotate_robot script to /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/team99_object_follower
+[2.072s] writing list of installed files to '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/install.log'
+[2.276s] Invoked command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/team99_object_follower' returned '0': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/prefix_override:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team99_object_follower build --build-base /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build install --record /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/install.log --install-scripts $base/lib/team99_object_follower --single-version-externally-managed

@@ -1,0 +1,586 @@
+[0.000000] (-) TimerEvent: {}
+[0.000302] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000401] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.021598] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.023134] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/src/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo'], 'cwd': '/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tomo'), ('SSH_AGENT_PID', '1334'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tomo'), ('OLDPWD', '/home/tomo/ae7785-intro-to-robo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1076'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tomo'), ('JOURNAL_STREAM', '8:29538'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/tomo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tomo-VirtualBox:@/tmp/.ICE-unix/1396,unix/tomo-VirtualBox:/tmp/.ICE-unix/1396'), ('INVOCATION_ID', '34f6fea79c78481a8589c8cbb614e0d3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb6cfda9_987f_4c48_a9ff_65c7f303c1c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.744'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.096439] (-) TimerEvent: {}
+[0.119908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.197111] (-) TimerEvent: {}
+[0.201863] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.209074] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.298253] (-) TimerEvent: {}
+[0.322982] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.324225] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398142] (-) TimerEvent: {}
+[0.433892] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.455041] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.455519] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.459232] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500093] (-) TimerEvent: {}
+[0.597108] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.598503] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.607743] (-) TimerEvent: {}
+[0.710515] (-) TimerEvent: {}
+[0.733143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.757986] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.758928] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.762636] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.798961] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.799392] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.811434] (-) TimerEvent: {}
+[0.912297] (-) TimerEvent: {}
+[1.012732] (-) TimerEvent: {}
+[1.114865] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.115327] (-) TimerEvent: {}
+[1.136816] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.191206] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.216185] (-) TimerEvent: {}
+[1.317154] (-) TimerEvent: {}
+[1.403367] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.418167] (-) TimerEvent: {}
+[1.504246] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.518883] (-) TimerEvent: {}
+[1.609141] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.619644] (-) TimerEvent: {}
+[1.666679] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.720644] (-) TimerEvent: {}
+[1.821179] (-) TimerEvent: {}
+[1.922583] (-) TimerEvent: {}
+[2.023330] (-) TimerEvent: {}
+[2.125806] (-) TimerEvent: {}
+[2.227870] (-) TimerEvent: {}
+[2.254182] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.328440] (-) TimerEvent: {}
+[2.379775] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.388442] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.406167] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.412915] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.413697] (turtlebot3_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.420553] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.429432] (-) TimerEvent: {}
+[2.441487] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.496475] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.510615] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.524559] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.530198] (-) TimerEvent: {}
+[2.536435] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.536703] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.548535] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.548795] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.563040] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.563346] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.580283] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.580811] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.593123] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.593379] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.604732] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.631726] (-) TimerEvent: {}
+[2.734122] (-) TimerEvent: {}
+[2.837333] (-) TimerEvent: {}
+[2.868037] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.871965] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[2.872602] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.894778] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[2.908341] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.916676] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.939170] (-) TimerEvent: {}
+[2.939877] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[2.995710] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.003361] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.025564] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[3.041164] (-) TimerEvent: {}
+[3.077338] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.080982] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.081625] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.103639] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.110492] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.133095] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[3.142153] (-) TimerEvent: {}
+[3.196809] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.200294] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.200869] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.201308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.203065] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.205403] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.221658] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.225326] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[3.226125] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.227037] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.233089] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[3.233618] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.243676] (-) TimerEvent: {}
+[3.344418] (-) TimerEvent: {}
+[3.351959] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[3.365908] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.393549] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.446973] (-) TimerEvent: {}
+[3.454427] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.473111] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.503003] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.548227] (-) TimerEvent: {}
+[3.582594] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.584384] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.586030] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.587826] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.594835] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)\n'}
+[3.597514] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[3.639583] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.649659] (-) TimerEvent: {}
+[3.652063] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.751685] (-) TimerEvent: {}
+[3.765643] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.803881] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.852459] (-) TimerEvent: {}
+[3.923297] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.953038] (-) TimerEvent: {}
+[4.054054] (-) TimerEvent: {}
+[4.071955] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[4.154558] (-) TimerEvent: {}
+[4.180672] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.254869] (-) TimerEvent: {}
+[4.261329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.264180] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.267441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.355679] (-) TimerEvent: {}
+[4.457380] (-) TimerEvent: {}
+[4.479808] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.557899] (-) TimerEvent: {}
+[4.599373] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[4.660754] (-) TimerEvent: {}
+[4.710056] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.761224] (-) TimerEvent: {}
+[4.791944] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[4.796653] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/build/turtlebot3_gazebo\n'}
+[4.811316] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[4.812600] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[4.813738] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/build/turtlebot3_gazebo', '--', '-j6', '-l6'], 'cwd': '/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tomo'), ('SSH_AGENT_PID', '1334'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tomo'), ('OLDPWD', '/home/tomo/ae7785-intro-to-robo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1076'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tomo'), ('JOURNAL_STREAM', '8:29538'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/tomo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tomo-VirtualBox:@/tmp/.ICE-unix/1396,unix/tomo-VirtualBox:/tmp/.ICE-unix/1396'), ('INVOCATION_ID', '34f6fea79c78481a8589c8cbb614e0d3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb6cfda9_987f_4c48_a9ff_65c7f303c1c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.744'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.862718] (-) TimerEvent: {}
+[4.879082] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle1\x1b[0m\n'}
+[4.879895] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle2\x1b[0m\n'}
+[4.880048] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacles\x1b[0m\n'}
+[4.880404] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_drive\x1b[0m\n'}
+[4.962668] (-) TimerEvent: {}
+[5.017184] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[5.064726] (-) TimerEvent: {}
+[5.171509] (-) TimerEvent: {}
+[5.188328] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[5.191966] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[5.192326] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[5.274895] (-) TimerEvent: {}
+[5.383230] (-) TimerEvent: {}
+[5.483984] (-) TimerEvent: {}
+[5.614188] (-) TimerEvent: {}
+[5.730024] (-) TimerEvent: {}
+[5.843320] (-) TimerEvent: {}
+[5.944875] (-) TimerEvent: {}
+[6.076074] (-) TimerEvent: {}
+[6.186847] (-) TimerEvent: {}
+[6.292636] (-) TimerEvent: {}
+[6.414123] (-) TimerEvent: {}
+[6.526795] (-) TimerEvent: {}
+[6.642681] (-) TimerEvent: {}
+[6.750598] (-) TimerEvent: {}
+[6.855031] (-) TimerEvent: {}
+[6.963287] (-) TimerEvent: {}
+[7.070589] (-) TimerEvent: {}
+[7.180077] (-) TimerEvent: {}
+[7.281493] (-) TimerEvent: {}
+[7.397500] (-) TimerEvent: {}
+[7.504432] (-) TimerEvent: {}
+[7.604974] (-) TimerEvent: {}
+[7.706908] (-) TimerEvent: {}
+[7.807847] (-) TimerEvent: {}
+[7.931395] (-) TimerEvent: {}
+[8.050881] (-) TimerEvent: {}
+[8.163265] (-) TimerEvent: {}
+[8.270635] (-) TimerEvent: {}
+[8.388796] (-) TimerEvent: {}
+[8.500482] (-) TimerEvent: {}
+[8.604620] (-) TimerEvent: {}
+[8.706793] (-) TimerEvent: {}
+[8.812705] (-) TimerEvent: {}
+[8.924569] (-) TimerEvent: {}
+[9.035172] (-) TimerEvent: {}
+[9.140188] (-) TimerEvent: {}
+[9.241480] (-) TimerEvent: {}
+[9.345286] (-) TimerEvent: {}
+[9.446881] (-) TimerEvent: {}
+[9.556554] (-) TimerEvent: {}
+[9.662175] (-) TimerEvent: {}
+[9.768362] (-) TimerEvent: {}
+[9.881608] (-) TimerEvent: {}
+[9.986594] (-) TimerEvent: {}
+[10.098370] (-) TimerEvent: {}
+[10.210469] (-) TimerEvent: {}
+[10.331410] (-) TimerEvent: {}
+[10.437352] (-) TimerEvent: {}
+[10.550016] (-) TimerEvent: {}
+[10.661541] (-) TimerEvent: {}
+[10.774132] (-) TimerEvent: {}
+[10.885665] (-) TimerEvent: {}
+[10.999358] (-) TimerEvent: {}
+[11.101197] (-) TimerEvent: {}
+[11.203319] (-) TimerEvent: {}
+[11.315128] (-) TimerEvent: {}
+[11.422370] (-) TimerEvent: {}
+[11.527240] (-) TimerEvent: {}
+[11.633877] (-) TimerEvent: {}
+[11.734902] (-) TimerEvent: {}
+[11.836832] (-) TimerEvent: {}
+[11.939092] (-) TimerEvent: {}
+[12.055637] (-) TimerEvent: {}
+[12.157344] (-) TimerEvent: {}
+[12.266780] (-) TimerEvent: {}
+[12.376796] (-) TimerEvent: {}
+[12.502193] (-) TimerEvent: {}
+[12.606789] (-) TimerEvent: {}
+[12.709071] (-) TimerEvent: {}
+[12.811531] (-) TimerEvent: {}
+[12.928487] (-) TimerEvent: {}
+[13.038530] (-) TimerEvent: {}
+[13.140559] (-) TimerEvent: {}
+[13.250005] (-) TimerEvent: {}
+[13.359181] (-) TimerEvent: {}
+[13.460216] (-) TimerEvent: {}
+[13.562486] (-) TimerEvent: {}
+[13.670755] (-) TimerEvent: {}
+[13.779679] (-) TimerEvent: {}
+[13.884095] (-) TimerEvent: {}
+[13.988132] (-) TimerEvent: {}
+[14.091109] (-) TimerEvent: {}
+[14.211395] (-) TimerEvent: {}
+[14.313104] (-) TimerEvent: {}
+[14.418786] (-) TimerEvent: {}
+[14.522537] (-) TimerEvent: {}
+[14.632310] (-) TimerEvent: {}
+[14.738103] (-) TimerEvent: {}
+[14.849769] (-) TimerEvent: {}
+[14.985484] (-) TimerEvent: {}
+[15.094446] (-) TimerEvent: {}
+[15.196155] (-) TimerEvent: {}
+[15.298424] (-) TimerEvent: {}
+[15.409187] (-) TimerEvent: {}
+[15.516857] (-) TimerEvent: {}
+[15.654756] (-) TimerEvent: {}
+[15.755871] (-) TimerEvent: {}
+[15.858724] (-) TimerEvent: {}
+[15.965319] (-) TimerEvent: {}
+[16.070954] (-) TimerEvent: {}
+[16.174825] (-) TimerEvent: {}
+[16.276717] (-) TimerEvent: {}
+[16.384147] (-) TimerEvent: {}
+[16.496398] (-) TimerEvent: {}
+[16.607042] (-) TimerEvent: {}
+[16.712952] (-) TimerEvent: {}
+[16.816934] (-) TimerEvent: {}
+[16.927776] (-) TimerEvent: {}
+[17.028509] (-) TimerEvent: {}
+[17.129618] (-) TimerEvent: {}
+[17.239055] (-) TimerEvent: {}
+[17.345802] (-) TimerEvent: {}
+[17.470268] (-) TimerEvent: {}
+[17.571485] (-) TimerEvent: {}
+[17.677995] (-) TimerEvent: {}
+[17.779132] (-) TimerEvent: {}
+[17.880224] (-) TimerEvent: {}
+[17.982265] (-) TimerEvent: {}
+[18.100191] (-) TimerEvent: {}
+[18.209603] (-) TimerEvent: {}
+[18.313939] (-) TimerEvent: {}
+[18.415796] (-) TimerEvent: {}
+[18.519588] (-) TimerEvent: {}
+[18.622647] (-) TimerEvent: {}
+[18.723553] (-) TimerEvent: {}
+[18.831331] (-) TimerEvent: {}
+[18.939368] (-) TimerEvent: {}
+[19.046255] (-) TimerEvent: {}
+[19.156595] (-) TimerEvent: {}
+[19.260967] (-) TimerEvent: {}
+[19.368527] (-) TimerEvent: {}
+[19.423942] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[19.468932] (-) TimerEvent: {}
+[19.570909] (-) TimerEvent: {}
+[19.674532] (-) TimerEvent: {}
+[19.782643] (-) TimerEvent: {}
+[19.892406] (-) TimerEvent: {}
+[19.993552] (-) TimerEvent: {}
+[20.036733] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] Built target turtlebot3_drive\n'}
+[20.102877] (-) TimerEvent: {}
+[20.216530] (-) TimerEvent: {}
+[20.320778] (-) TimerEvent: {}
+[20.432711] (-) TimerEvent: {}
+[20.533228] (-) TimerEvent: {}
+[20.653217] (-) TimerEvent: {}
+[20.772522] (-) TimerEvent: {}
+[20.874498] (-) TimerEvent: {}
+[20.978490] (-) TimerEvent: {}
+[21.083489] (-) TimerEvent: {}
+[21.184082] (-) TimerEvent: {}
+[21.291739] (-) TimerEvent: {}
+[21.401148] (-) TimerEvent: {}
+[21.501717] (-) TimerEvent: {}
+[21.603227] (-) TimerEvent: {}
+[21.706914] (-) TimerEvent: {}
+[21.811837] (-) TimerEvent: {}
+[21.914803] (-) TimerEvent: {}
+[22.027284] (-) TimerEvent: {}
+[22.133468] (-) TimerEvent: {}
+[22.238474] (-) TimerEvent: {}
+[22.339226] (-) TimerEvent: {}
+[22.449152] (-) TimerEvent: {}
+[22.552687] (-) TimerEvent: {}
+[22.653414] (-) TimerEvent: {}
+[22.761828] (-) TimerEvent: {}
+[22.863801] (-) TimerEvent: {}
+[22.964288] (-) TimerEvent: {}
+[23.065051] (-) TimerEvent: {}
+[23.180072] (-) TimerEvent: {}
+[23.280910] (-) TimerEvent: {}
+[23.381744] (-) TimerEvent: {}
+[23.482232] (-) TimerEvent: {}
+[23.583440] (-) TimerEvent: {}
+[23.684886] (-) TimerEvent: {}
+[23.786053] (-) TimerEvent: {}
+[23.886708] (-) TimerEvent: {}
+[23.987589] (-) TimerEvent: {}
+[24.088216] (-) TimerEvent: {}
+[24.188855] (-) TimerEvent: {}
+[24.289313] (-) TimerEvent: {}
+[24.390089] (-) TimerEvent: {}
+[24.491625] (-) TimerEvent: {}
+[24.594108] (-) TimerEvent: {}
+[24.696164] (-) TimerEvent: {}
+[24.797163] (-) TimerEvent: {}
+[24.905531] (-) TimerEvent: {}
+[25.016882] (-) TimerEvent: {}
+[25.117364] (-) TimerEvent: {}
+[25.220639] (-) TimerEvent: {}
+[25.326533] (-) TimerEvent: {}
+[25.437040] (-) TimerEvent: {}
+[25.538484] (-) TimerEvent: {}
+[25.646688] (-) TimerEvent: {}
+[25.752570] (-) TimerEvent: {}
+[25.805324] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[25.805727] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[25.872422] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[25.872757] (-) TimerEvent: {}
+[25.976462] (-) TimerEvent: {}
+[26.078599] (-) TimerEvent: {}
+[26.180120] (-) TimerEvent: {}
+[26.280979] (-) TimerEvent: {}
+[26.386968] (-) TimerEvent: {}
+[26.390929] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle1\n'}
+[26.393120] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle2\n'}
+[26.396664] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[26.418517] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[26.484105] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[26.487754] (-) TimerEvent: {}
+[26.499312] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/build/turtlebot3_gazebo'], 'cwd': '/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tomo'), ('SSH_AGENT_PID', '1334'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tomo'), ('OLDPWD', '/home/tomo/ae7785-intro-to-robo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1076'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tomo'), ('JOURNAL_STREAM', '8:29538'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/tomo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tomo-VirtualBox:@/tmp/.ICE-unix/1396,unix/tomo-VirtualBox:/tmp/.ICE-unix/1396'), ('INVOCATION_ID', '34f6fea79c78481a8589c8cbb614e0d3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb6cfda9_987f_4c48_a9ff_65c7f303c1c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.744'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[26.509245] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.509782] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[26.513616] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""\n'}
+[26.514598] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[26.514715] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[26.514805] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[26.515489] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[26.516306] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py\n'}
+[26.516628] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[26.517224] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[26.517421] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/lab2_world.launch.py\n'}
+[26.517703] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[26.517996] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[26.518337] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[26.518796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[26.518948] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[26.519270] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[26.519505] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[26.519797] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes\n'}
+[26.520089] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae\n'}
+[26.520606] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae\n'}
+[26.520955] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae\n'}
+[26.521300] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae\n'}
+[26.521653] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[26.522010] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace\n'}
+[26.522352] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights\n'}
+[26.522699] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config\n'}
+[26.523476] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf\n'}
+[26.523728] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green\n'}
+[26.524276] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config\n'}
+[26.524596] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf\n'}
+[26.524943] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config\n'}
+[26.525184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow\n'}
+[26.526497] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config\n'}
+[26.527041] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf\n'}
+[26.527575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop\n'}
+[26.528377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config\n'}
+[26.528507] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf\n'}
+[26.528599] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials\n'}
+[26.529275] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures\n'}
+[26.529728] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png\n'}
+[26.530477] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts\n'}
+[26.530963] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material\n'}
+[26.531135] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up\n'}
+[26.531431] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config\n'}
+[26.531817] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf\n'}
+[26.532084] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials\n'}
+[26.532311] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures\n'}
+[26.532608] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png\n'}
+[26.532905] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts\n'}
+[26.533240] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material\n'}
+[26.533563] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel\n'}
+[26.533834] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config\n'}
+[26.534109] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf\n'}
+[26.534380] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials\n'}
+[26.534670] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures\n'}
+[26.535087] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png\n'}
+[26.535401] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts\n'}
+[26.535717] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material\n'}
+[26.536051] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall\n'}
+[26.536318] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config\n'}
+[26.536670] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf\n'}
+[26.536988] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down\n'}
+[26.537418] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config\n'}
+[26.538097] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf\n'}
+[26.538486] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials\n'}
+[26.538833] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures\n'}
+[26.539676] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png\n'}
+[26.539881] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts\n'}
+[26.540248] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material\n'}
+[26.540681] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking\n'}
+[26.540872] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config\n'}
+[26.541504] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf\n'}
+[26.541616] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials\n'}
+[26.541701] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures\n'}
+[26.541783] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png\n'}
+[26.541862] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts\n'}
+[26.541958] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material\n'}
+[26.542080] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red\n'}
+[26.542290] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config\n'}
+[26.543111] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf\n'}
+[26.544277] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground\n'}
+[26.545085] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config\n'}
+[26.546603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf\n'}
+[26.546889] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles\n'}
+[26.547226] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config\n'}
+[26.547514] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf\n'}
+[26.547847] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course\n'}
+[26.547937] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config\n'}
+[26.548019] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf\n'}
+[26.548154] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials\n'}
+[26.548413] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures\n'}
+[26.548709] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png\n'}
+[26.549015] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts\n'}
+[26.549297] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material\n'}
+[26.549701] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger\n'}
+[26.549989] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[26.550265] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[26.550673] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes\n'}
+[26.550810] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae\n'}
+[26.550930] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae\n'}
+[26.551262] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae\n'}
+[26.551415] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[26.551639] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/turtlebot3_burger.urdf\n'}
+[26.552042] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi\n'}
+[26.552225] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[26.552499] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[26.552763] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes\n'}
+[26.553070] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae\n'}
+[26.553362] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae\n'}
+[26.553791] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae\n'}
+[26.554179] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[26.554377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/.DS_Store\n'}
+[26.554657] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house\n'}
+[26.555098] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[26.555390] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[26.555683] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[26.555855] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[26.556142] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[26.556431] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[26.556899] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[26.557308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[26.557591] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[26.557886] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[26.558162] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[26.558433] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[26.558793] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[26.561144] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[26.561460] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[26.562839] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[26.563417] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[26.564360] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[26.564656] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[26.564971] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[26.565253] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[26.565531] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[26.565808] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[26.571436] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[26.572247] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[26.575505] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[26.577164] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[26.577563] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[26.577840] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[26.578605] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[26.578791] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[26.580917] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[26.581191] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[26.581468] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[26.581763] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[26.582044] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/lab2_worlds\n'}
+[26.582319] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/lab2_worlds/burger.model\n'}
+[26.582590] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds\n'}
+[26.582967] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model\n'}
+[26.583244] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model\n'}
+[26.583517] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model\n'}
+[26.583789] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3\n'}
+[26.584061] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model\n'}
+[26.584337] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model\n'}
+[26.584609] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model\n'}
+[26.584888] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces\n'}
+[26.585733] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model\n'}
+[26.586190] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model\n'}
+[26.586463] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model\n'}
+[26.586734] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses\n'}
+[26.587255] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model\n'}
+[26.587578] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model\n'}
+[26.587750] (-) TimerEvent: {}
+[26.588107] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model\n'}
+[26.588442] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1\n'}
+[26.588729] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model\n'}
+[26.589000] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model\n'}
+[26.589269] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model\n'}
+[26.589545] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds\n'}
+[26.589813] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model\n'}
+[26.590083] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model\n'}
+[26.590350] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model\n'}
+[26.590915] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4\n'}
+[26.591104] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model\n'}
+[26.591401] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model\n'}
+[26.591677] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model\n'}
+[26.591955] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2\n'}
+[26.592982] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model\n'}
+[26.593385] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model\n'}
+[26.593657] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model\n'}
+[26.593930] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/include/\n'}
+[26.594204] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[26.594475] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[26.594935] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[26.595208] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[26.595474] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[26.595843] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[26.596212] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[26.596677] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[26.596945] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[26.597377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[26.597646] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[26.597917] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[26.598187] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[26.598667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[26.598948] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.599219] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.599503] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[26.599788] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[26.600059] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[26.600329] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[26.696839] (-) TimerEvent: {}
+[26.701522] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[26.703659] (-) EventReactorShutdown: {}

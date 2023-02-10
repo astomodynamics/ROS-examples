@@ -13,6 +13,7 @@ import imutils
 
 from geometry_msgs.msg import Point
 from sensor_msgs.msg import CompressedImage
+from sensor_msgs.msg import Image
 from rclpy.qos import QoSProfile, QoSDurabilityPolicy, QoSReliabilityPolicy, QoSHistoryPolicy
 
 class FindObjectNode(Node): 
@@ -23,14 +24,13 @@ class FindObjectNode(Node):
         # set parameters
         self.declare_parameter('show_image_bool', True)
         self.declare_parameter('window_name', "Raw Image")
+        # self.declare_parameter('color_lb', )
 
         # determine window showing based on input
         self._display_image = bool(self.get_parameter('show_image_bool').value)
 
         # Declare some variables
         self._titleOriginal = self.get_parameter('window_name').value # Image Window Title	
-		
-        
 
         # Set up QoS Profiles for passing images over WiFi
         image_qos_profile = QoSProfile(
@@ -40,35 +40,38 @@ class FindObjectNode(Node):
 		    depth=1
 		)
 
-        self._img_subscriber = self.create_subscription(CompressedImage,
-            '/camera/image/compressed', self._image_callback, 10)
-
         # self._img_subscriber = self.create_subscription(CompressedImage,
         #     '/camera/image/compressed', self._image_callback, image_qos_profile)
 
         # if you run in gazebo use this for subscriber
-        # self._img_subscriber = self.create_subscription(CompressedImage,
-        #     '/camera/image_raw', self._image_callback, image_qos_profile)
+        self._img_subscriber = self.create_subscription(Image,
+            '/camera/image_raw', self._image_callback, image_qos_profile)
 
         # green
-        self._colorlb = (25, 60, 0)
-        self._colorub = (90, 255, 255)
+        # self._colorlb = (25, 60, 0)
+        # self._colorub = (90, 255, 255)
 
         # blue
-        # self.colorlb = ( 90, 70, 100)
-        # self.colorub = (120, 200, 255)
+        # self._colorlb = ( 90, 70, 100)
+        # self._colorub = (120, 200, 255)
 
-        self._
+        # yellow
+        self._colorlb = (25, 50, 70)
+        self._colorub = (35, 255, 255)
+
+        self.object_location_publisher = self.create_publisher(
+            Point, "object_location", 10)
 
         self._img_subscriber # Prevents unused variable warning.
 
-
-    def _image_callback(self, CompressedImage):
-        self._imgBGR = CvBridge().compressed_imgmsg_to_cv2(CompressedImage, "bgr8")
-        if(self._display_image):
-            # Display the image in a window
-            self.show_image(self._imgBGR)
+    # def _image_callback(self, CompressedImage):
+        # self._imgBGR = CvBridge().compressed_imgmsg_to_cv2(CompressedImage, "bgr8")
+    
+    # when you simulate in Gazebo
+    def _image_callback(self, Image):
+        self._imgBGR = CvBridge().imgmsg_to_cv2(Image, "bgr8")
         
+
         # blur image 
         blurred = cv2.GaussianBlur(self._imgBGR, (11, 11), 0)
     
@@ -76,13 +79,16 @@ class FindObjectNode(Node):
         hsv = cv2.cvtColor(blurred, cv2.COLOR_BGR2HSV)
 
         # threshhold HSV image 
-        mask = cv2.inRange(hsv, self.colorlb, self.colorup)
+        mask = cv2.inRange(hsv, self._colorlb, self._colorub)
         mask = cv2.erode(mask, None, iterations=2)
         mask = cv2.dilate(mask, None, iterations=2)
 
         # find contours in the mask 
-        contours = cv2.findContours(mask.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        contours = imutils.grab_contours(contours)
+        contours, _ = cv2.findContours(mask.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        
+        # create Point to be published
+        object_location = Point()
+
         if len(contours) > 0:
             # locate the centroid
             centroid = max(contours, key=cv2.contourArea)
@@ -92,21 +98,31 @@ class FindObjectNode(Node):
             center = (int(M["m10"] / M["m00"]), int(M["m01"] / M["m00"]))
 
             # if the colored object is greater than the threshhold, show the circle
-            # if radius > 70:
-            #     # draw rectangle and centroid of colored object on the frame
-            #     cv2.circle(frame, (int(x), int(y)), int(radius),(110,50,50), 2)
-            #     cv2.circle(frame, center, 3,  (110,50,50), -1)
-            #     text = 'object (%.1d, %.1d)' % (int(x)+20, int(y)+20)
-            #     cv2.putText(frame, text, (int(x)+10, int(y)+10), cv2.FONT_HERSHEY_SIMPLEX,
-            #             0.8,(110,50,50), 1)
-        
-        # create Point to be published
-        object_lication = Point()
+            if radius > 20:
+                # draw rectangle and centroid of colored object on the frame
+                cv2.circle(self._imgBGR, (int(x), int(y)), int(radius),(110,50,50), 2)
+                cv2.circle(self._imgBGR, center, 3,  (110,50,50), -1)
+                text = 'object (%.1d, %.1d)' % (int(x), int(y))
+                cv2.putText(self._imgBGR, text, (int(x)+10, int(y)+10), cv2.FONT_HERSHEY_SIMPLEX,
+                        0.5,(110,50,50), 1)
+
+                object_location.x = x
+                object_location.y = y
+                object_location.z = 0.
+                self.object_location_publisher.publish(object_location)
+            else:
+                object_location.x = 160.
+                object_location.y = 0.
+                object_location.z = 0.
+                self.object_location_publisher.publish(object_location)
+
+
+        if(self._display_image):
+            # Display the image in a window
+            self.show_image(self._imgBGR)
 
         # if you press "Q", then terminate the loop
         cv2.waitKey(1) & 0xFF == ord('q')
-
-        
 
     def show_image(self, img):
         cv2.imshow(self._titleOriginal, img)
@@ -124,13 +140,3 @@ def main(args=None):
 
 if __name__ == "__main__":
     main()
-
-
-
-#     # Display captured frame 
-#     cv2.imshow('frame', frame)
-
-
-# # When everything done, release the capture
-# cap.release()
-# cv2.destroyAllWindows()
