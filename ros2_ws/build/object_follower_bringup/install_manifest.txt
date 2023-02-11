@@ -1,0 +1,16 @@
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/launch/object_follower.launch.py
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/ament_index/resource_index/package_run_dependencies/object_follower_bringup
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/ament_index/resource_index/parent_prefix_path/object_follower_bringup
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/environment/ament_prefix_path.sh
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/environment/ament_prefix_path.dsv
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/environment/path.sh
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/environment/path.dsv
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/local_setup.bash
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/local_setup.sh
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/local_setup.zsh
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/local_setup.dsv
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.dsv
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/ament_index/resource_index/packages/object_follower_bringup
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/cmake/object_follower_bringupConfig.cmake
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/cmake/object_follower_bringupConfig-version.cmake
+/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.xml

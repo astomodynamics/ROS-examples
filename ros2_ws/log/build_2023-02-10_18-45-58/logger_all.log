@@ -1,0 +1,203 @@
+[0.575s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.575s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3121c77190>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3121c77190>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3121c776d0>)
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.721s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tomo/ae7785-intro-to-robo/ros2_ws'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower) by extension 'colcon_meta'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower) by extension 'ros'
+[0.784s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_follower' with type 'ros.ament_python' and name 'team99_object_follower'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower_bringup) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower_bringup) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower_bringup) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower_bringup) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower_bringup) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower_bringup) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower_bringup) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_follower_bringup) by extension 'ros'
+[0.785s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_follower_bringup' with type 'ros.ament_cmake' and name 'object_follower_bringup'
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.873s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install
+[0.874s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/tomo/ae7785-intro-to-robo/ros2_ws/install
+[0.878s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 339 installed packages in /opt/ros/foxy
+[0.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.111s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'team99_object_follower' is in: /home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding team99_object_follower
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'team99_object_follower' build argument 'cmake_args' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'team99_object_follower' build argument 'cmake_target' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'team99_object_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'team99_object_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'team99_object_follower' build argument 'cmake_clean_first' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'team99_object_follower' build argument 'cmake_force_configure' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'team99_object_follower' build argument 'ament_cmake_args' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'team99_object_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'team99_object_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.115s] DEBUG:colcon.colcon_core.verb:Building package 'team99_object_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower', 'merge_install': False, 'path': '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower', 'symlink_install': False, 'test_result_base': None}
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'object_follower_bringup' build argument 'cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'object_follower_bringup' build argument 'cmake_target' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'object_follower_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'object_follower_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'object_follower_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'object_follower_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'object_follower_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'object_follower_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'object_follower_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.118s] DEBUG:colcon.colcon_core.verb:Building package 'object_follower_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup', 'merge_install': False, 'path': '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.119s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.127s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower' with build type 'ament_python'
+[1.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('team99_object_follower', 'ament_prefix_path')
+[1.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/hook/ament_prefix_path.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/hook/ament_prefix_path.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/hook/ament_prefix_path.sh'
+[1.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.585s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'team99_object_follower' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.586s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'team99_object_follower' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.587s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower'
+[1.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/prefix_override:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team99_object_follower build --build-base /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build install --record /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/install.log --install-scripts $base/lib/object_follower --single-version-externally-managed
+[3.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower' returned '0': PYTHONPATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/prefix_override:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team99_object_follower build --build-base /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/build install --record /home/tomo/ae7785-intro-to-robo/ros2_ws/build/team99_object_follower/install.log --install-scripts $base/lib/object_follower --single-version-externally-managed
+[3.516s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower' for CMake module files
+[3.516s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower' for CMake config files
+[3.518s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib'
+[3.518s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/bin'
+[3.518s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/pkgconfig/team99_object_follower.pc'
+[3.518s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/lib/python3.8/site-packages'
+[3.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('team99_object_follower', 'pythonpath')
+[3.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/hook/pythonpath.ps1'
+[3.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/hook/pythonpath.dsv'
+[3.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/hook/pythonpath.sh'
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/bin'
+[3.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(team99_object_follower)
+[3.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/package.ps1'
+[3.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/package.dsv'
+[3.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/package.sh'
+[3.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/package.bash'
+[3.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/team99_object_follower/package.zsh'
+[3.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower/share/colcon-core/packages/team99_object_follower)
+[3.543s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower_bringup' with build type 'ament_cmake'
+[3.544s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower_bringup'
+[3.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup': AMENT_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower_bringup:/opt/ros/foxy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/opt/ros/foxy /usr/bin/cmake /home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower_bringup -DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup
+[7.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup' returned '0': AMENT_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower_bringup:/opt/ros/foxy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/opt/ros/foxy /usr/bin/cmake /home/tomo/ae7785-intro-to-robo/ros2_ws/src/object_follower_bringup -DCMAKE_INSTALL_PREFIX=/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup
+[7.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup': AMENT_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower_bringup:/opt/ros/foxy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup -- -j6 -l6
+[7.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup' returned '0': AMENT_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower_bringup:/opt/ros/foxy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/opt/ros/foxy /usr/bin/cmake --build /home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup -- -j6 -l6
+[7.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup': AMENT_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower_bringup:/opt/ros/foxy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup
+[7.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_follower_bringup)
+[7.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup' returned '0': AMENT_PREFIX_PATH=/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/home/tomo/ae7785-intro-to-robo/ros2_gazebo_ws/install/turtlebot3_gazebo:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower_bringup:/opt/ros/foxy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomo/ae7785-intro-to-robo/ros2_ws/install/team99_object_follower:/opt/ros/foxy /usr/bin/cmake --install /home/tomo/ae7785-intro-to-robo/ros2_ws/build/object_follower_bringup
+[7.331s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup' for CMake module files
+[7.333s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup' for CMake config files
+[7.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_follower_bringup', 'cmake_prefix_path')
+[7.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/hook/cmake_prefix_path.ps1'
+[7.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/hook/cmake_prefix_path.dsv'
+[7.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/hook/cmake_prefix_path.sh'
+[7.340s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/bin'
+[7.342s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/lib/pkgconfig/object_follower_bringup.pc'
+[7.343s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/lib/python3.8/site-packages'
+[7.343s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/bin'
+[7.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.ps1'
+[7.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.dsv'
+[7.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.sh'
+[7.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.bash'
+[7.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.zsh'
+[7.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/colcon-core/packages/object_follower_bringup)
+[7.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_follower_bringup)
+[7.395s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup' for CMake module files
+[7.396s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup' for CMake config files
+[7.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_follower_bringup', 'cmake_prefix_path')
+[7.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/hook/cmake_prefix_path.ps1'
+[7.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/hook/cmake_prefix_path.dsv'
+[7.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/hook/cmake_prefix_path.sh'
+[7.403s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/bin'
+[7.404s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/lib/pkgconfig/object_follower_bringup.pc'
+[7.404s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/lib/python3.8/site-packages'
+[7.404s] Level 1:colcon.colcon_core.environment:checking '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/bin'
+[7.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.ps1'
+[7.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.dsv'
+[7.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.sh'
+[7.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.bash'
+[7.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/object_follower_bringup/package.zsh'
+[7.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomo/ae7785-intro-to-robo/ros2_ws/install/object_follower_bringup/share/colcon-core/packages/object_follower_bringup)
+[7.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.415s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.544s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.577s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/local_setup.ps1'
+[7.599s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/_local_setup_util_ps1.py'
+[7.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/setup.ps1'
+[7.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/local_setup.sh'
+[7.638s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/_local_setup_util_sh.py'
+[7.640s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/setup.sh'
+[7.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/local_setup.bash'
+[7.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/setup.bash'
+[7.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/local_setup.zsh'
+[7.666s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomo/ae7785-intro-to-robo/ros2_ws/install/setup.zsh'

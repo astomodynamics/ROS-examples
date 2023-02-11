@@ -1,0 +1,4 @@
+[console_scripts]
+find_object = object_follower.find_object:main
+rotate_robot = object_follower.rotate_robot:main
+
