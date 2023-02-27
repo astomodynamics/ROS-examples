@@ -1,4 +1,0 @@
-source;share/team99_object_follower_bringup/local_setup.bash
-source;share/team99_object_follower_bringup/local_setup.dsv
-source;share/team99_object_follower_bringup/local_setup.sh
-source;share/team99_object_follower_bringup/local_setup.zsh
