@@ -25,16 +25,12 @@ class FindObjectNode(Node):
         self.declare_parameter('show_image_bool', True)
         self.declare_parameter('window_name', "Raw Image")
         # self.declare_parameter('color_lb', )
-        self.declare_parameter('gazebo_env', True)
 
         # determine window showing based on input
         self._display_image = bool(self.get_parameter('show_image_bool').value)
 
         # Declare some variables
         self._titleOriginal = self.get_parameter('window_name').value # Image Window Title	
-
-        # Decrare gazebo simulation or not
-        self._gazebo_env = bool(self.get_parameter('gazebo_env').value)
 
         # Set up QoS Profiles for passing images over WiFi
         image_qos_profile = QoSProfile(
@@ -43,39 +39,38 @@ class FindObjectNode(Node):
 		    durability=QoSDurabilityPolicy.RMW_QOS_POLICY_DURABILITY_VOLATILE,
 		    depth=1
 		)
-        
-        if self._gazebo_env:
-            # if you run in gazebo use this for subscriber
-            self._img_subscriber = self.create_subscription(Image,
-            '/camera/image_raw', self._image_callback, image_qos_profile)
-        else:
-            self._img_subscriber = self.create_subscription(CompressedImage,
-                '/camera/image/compressed', self._image_callback, image_qos_profile)
 
-    
+        self._img_subscriber = self.create_subscription(CompressedImage,
+            '/camera/image/compressed', self._image_callback, image_qos_profile)
+
+        # if you run in gazebo use this for subscriber
+        # self._img_subscriber = self.create_subscription(Image,
+            # '/camera/image_raw', self._image_callback, image_qos_profile)
+
         # green
         # self._colorlb = (25, 60, 0)
         # self._colorub = (90, 255, 255)
 
         # blue
-        # self._colorlb = ( 90, 70, 100)
-        # self._colorub = (120, 200, 255)
+        self._colorlb = ( 90, 70, 100)
+        self._colorub = (120, 200, 255)
 
         # yellow
-        self._colorlb = (25, 50, 70)
-        self._colorub = (35, 255, 255)
+        #self._colorlb = (25, 50, 70)
+        #self._colorub = (35, 255, 255)
 
         self.object_location_publisher = self.create_publisher(
             Point, "object_location", 10)
 
         self._img_subscriber # Prevents unused variable warning.
 
-    # def _image_callback(self, CompressedImage):
-    #     self._imgBGR = CvBridge().compressed_imgmsg_to_cv2(CompressedImage, "bgr8")
+    def _image_callback(self, CompressedImage):
+        self._imgBGR = CvBridge().compressed_imgmsg_to_cv2(CompressedImage, "bgr8")
     
     # when you simulate in Gazebo
-    def _image_callback(self, Image):
-        self._imgBGR = CvBridge().imgmsg_to_cv2(Image, "bgr8")
+    # def _image_callback(self, Image):
+    #     self._imgBGR = CvBridge().imgmsg_to_cv2(Image, "bgr8")
+        
 
         # blur image 
         blurred = cv2.GaussianBlur(self._imgBGR, (11, 11), 0)
@@ -122,9 +117,9 @@ class FindObjectNode(Node):
                 self.object_location_publisher.publish(object_location)
 
 
-        if(self._display_image):
-            # Display the image in a window
-            self.show_image(self._imgBGR)
+        # if(self._display_image):
+        #     # Display the image in a window
+        #     self.show_image(self._imgBGR)
 
         # if you press "Q", then terminate the loop
         cv2.waitKey(50) & 0xFF == ord('q')

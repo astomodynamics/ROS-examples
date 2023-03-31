@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="sign_left3">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0.14 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>0.003668 0.181404 0.2404</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://sign_left4/materials/scripts</uri>
+            <uri>model://sign_left4/materials/textures</uri>
+            <name>left4</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
